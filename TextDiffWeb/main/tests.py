@@ -1,24 +1,38 @@
 from django.test import TestCase
 from .models import Texts
+from .textParse import TextToDiff
 
 
 class TextsModelTest(TestCase):
 
     @classmethod
     def setUpTestData(cls):
-        Texts.objects.create(title='Big', text='Bob')
+        Texts.objects.create(title='Big Bob', text='One day I was liking creams')
+        # Texts.objects.create(title='Big Bob', text='What are you doing?')
 
-    def test_title_label(self):  # Тестил как работает класс Meta
+    def test_difficulty(self):  # Тест функции подсчёта сложности
         texts = Texts.objects.get(id=1)
-        field_label = texts._meta.get_field('title').verbose_name
-        self.assertEquals(field_label, 'Название')
+        static_dict = {"i": 1,
+                       "be": 2,
+                       "one": 3,
+                       "day": 4,
+                       "like": 5,
+                       "cream": 6}
 
-    def test_text_label(self):  # Проверял вывод данных
-        texts = Texts.objects.get(id=1)
-        field_label = texts.text
-        self.assertEquals(field_label, 'Bob')
+        answer = TextToDiff.diff(texts.text, static_dict)
+        # answer = TextToDiff.diff(texts.text, None)
+        self.assertEquals(answer, float("2.92"))
 
-    def test_title_max_length(self):  # Тестил как работает ограничение длины
+    def test_difficulty_with_big_data(self):  # Тест функции подсчёта сложности BIG DATA
+        inp = open('.//main//text.txt')
+        string = ""
+        for line in inp:
+            string += str(line)
+        answer = TextToDiff.diff(string, None)
+        self.assertEquals(answer, float("3.76"))
+
+    def test_parse(self):  # Тест функции определения языка
         texts = Texts.objects.get(id=1)
-        max_length = texts._meta.get_field('title').max_length
-        self.assertEquals(max_length, 50)
+        answer = TextToDiff.parse(texts.text)
+        self.assertEquals(answer, True)
+
