@@ -21,7 +21,7 @@ class TextToDiff:
         words = 0
         summary = 0
         max_difficult = 0
-        if summary_dict is None:
+        if summary_dict is None:  # Для тестирований
             summary_dict = TextToDiff.get_summary_dict()
 
         sentence_words = nltk.word_tokenize(text)  # Морфологический анализ

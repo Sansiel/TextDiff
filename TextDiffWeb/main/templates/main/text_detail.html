@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+    {{ text.title }} - {{ block.super }}
+{%  endblock %}
+
+{% block content %}
+    <h1 class="mb-5">
+        {{ text.title }}
+    </h1>
+    <p>
+        {{ text.text }}
+    </p>
+{%  endblock %}

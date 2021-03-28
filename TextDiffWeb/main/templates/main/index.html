@@ -1,16 +1,22 @@
 {% extends 'main/base.html' %}
 
 {% block title %}
-{{ title }}
+    {{ title }}
 {%  endblock %}
 
 {% block content %}
-    <h1>Тексты</h1>
+    <h1 class="mb-5"> Texts:</h1>
     {% if texts %}
         {% for el in texts %}
-            <div class="alert alert-warning mt-2">
-                <h3>{{ el.title }} </h3>
-                <p> Сложность = {{ el.score }}  из 5</p>
+            <div class="card mb-4">
+                <div class="card-header">
+                   <h2 class=card-title"> {{ el.title }} </h2>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Сложность = {{ el.score }}  из 5 </h5>
+                    <p class="card-text">{{ el.text|truncatewords:15 }}</p>
+                    <a href="{{ el.get_absolute_url }}" class="btn btn-light">Read</a>
+                </div>
             </div>
         {% endfor %}
     {% else %}

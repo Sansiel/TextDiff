@@ -6,11 +6,12 @@
 
 {% block content %}
     <h1>Добавить текст</h1>
-    <from method="post">
+    <form class = "" method="post">
         {% csrf_token %}
         {{ form.title }}<br>
         {{ form.text }}<br>
-        <button type="submit" class="btn btn-success">Добавить</button>
+<!--        <button type="submit" class="btn btn-success">Добавить</button>-->
+        <input type="submit" name="add" value="Добавить">
         <span>{{ error }}</span>
-    </from>
+    </form>
 {%  endblock %}
