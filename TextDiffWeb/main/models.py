@@ -9,6 +9,11 @@ def gen_slug(s):
     return new_slug + '-' + str(int(time()))
 
 
+def gen_diff(s):
+    TextToDiff.diff(s, None)
+    return s
+
+
 class Texts(models.Model):  # Классная штука этот импорт
     title = models.CharField('Название', max_length=50)
     text = models.TextField('Текст')
@@ -22,6 +27,7 @@ class Texts(models.Model):  # Классная штука этот импорт
     def save(self, *args, **kwargs):
         if not self.id:
             self.slug = gen_slug(self.title)
+            self.score = gen_diff(self.text)
         super().save(*args, **kwargs)
 
     def __str__(self):
