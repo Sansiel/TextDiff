@@ -16,7 +16,11 @@ class TextsForm (ModelForm):
             }),
             "text": Textarea(attrs={
                 "class": "form-control",
-                "placeholder": "Введите название",
+                "placeholder": "Введите текст",
+            }),
+            "url": TextInput(attrs={
+                "class": "form-control",
+                "placeholder": "Введите url",
             }),
         }
 

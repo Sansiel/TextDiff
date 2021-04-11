@@ -1,10 +1,10 @@
 import sqlite3
 
 
-class dictionary_work:
+class dictionary_work():
 
     def __init__(self):
-        pass
+        dictionary_work.data_upload()
 
     @staticmethod
     def get_dict():
@@ -22,5 +22,5 @@ class dictionary_work:
     def data_upload():
         conn = sqlite3.connect('dictionary.db')
         cur = conn.cursor()
-        cur.execute("INSERT INTO users VALUES(?, ?, ?, ?);", get_dict())
+        cur.execute("INSERT INTO users VALUES(?, ?, ?, ?);", dictionary_work.get_dict())
         conn.commit()

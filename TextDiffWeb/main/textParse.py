@@ -41,9 +41,9 @@ class TextToDiff:
         # print(lemmas)  # Tests
         # print(summary, words, max_difficult)  # Tests
 
-        x = 5 * (summary / words / max_difficult)
+        x = 100 * (summary / words / max_difficult)
         # print(x)  # Tests
-        x = round(x, 2)
+        x = round(x)
         # print(x)  # Tests
         return x
 

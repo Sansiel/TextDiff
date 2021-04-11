@@ -3,6 +3,8 @@ from django.shortcuts import reverse
 from django.utils.text import slugify
 from time import time
 
+from .textParse import TextToDiff
+
 
 def gen_slug(s):
     new_slug = slugify(s, allow_unicode=True)
@@ -10,12 +12,12 @@ def gen_slug(s):
 
 
 def gen_diff(s):
-    TextToDiff.diff(s, None)
-    return s
+    td = TextToDiff.diff(s, None)
+    return td
 
 
 class Texts(models.Model):  # Классная штука этот импорт
-    title = models.CharField('Название', max_length=50)
+    title = models.CharField('Название', max_length=250)
     text = models.TextField('Текст')
     score = models.IntegerField('Оценка сложности', blank=True, null=True)  # blank и null не забыть убрать
     url = models.CharField('URL', blank=True, null=True, max_length=255)  # blank и null писать вместе.
