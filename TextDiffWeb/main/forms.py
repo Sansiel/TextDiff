@@ -8,7 +8,7 @@ from django.forms import ModelForm, TextInput, Textarea
 class TextsForm (ModelForm):
     class Meta:
         model = Texts  # Обращаемся к модели
-        fields = ["title", "text", "score", "url"]  # К этим полям. Надеюсь потом вспомню сюда ещё diff вписать
+        fields = ["title", "text", "score", "symbol", "slug", "url"]  # К этим полям. Надеюсь потом вспомню сюда ещё diff вписать
         widgets = {
             "title": TextInput(attrs={
                 "class": "form-control",

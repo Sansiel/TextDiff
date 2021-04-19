@@ -15,6 +15,10 @@ def gen_diff(s):
     td = TextToDiff.diff(s, None)
     return td
 
+def gen_diff(s):
+    sym = TextToDiff.symb(s)
+    return sym
+
 
 class Texts(models.Model):  # Классная штука этот импорт
     title = models.CharField('Название', max_length=250)
@@ -22,6 +26,7 @@ class Texts(models.Model):  # Классная штука этот импорт
     score = models.IntegerField('Оценка сложности', blank=True, null=True)  # blank и null не забыть убрать
     url = models.CharField('URL', blank=True, null=True, max_length=255)  # blank и null писать вместе.
     slug = models.SlugField(max_length=150, unique=True)
+    symbol = models.IntegerField('Кол-во символов', blank=True, null=True)  #Добавлено по просьбе пользователей
 
     def get_absolute_url(self):
         return reverse('text_detail_url', kwargs={'slug': self.slug})
@@ -30,6 +35,7 @@ class Texts(models.Model):  # Классная штука этот импорт
         if not self.id:
             self.slug = gen_slug(self.title)
             self.score = gen_diff(self.text)
+            self.symbol = gen_symbol(self.text)
         super().save(*args, **kwargs)
 
     def __str__(self):

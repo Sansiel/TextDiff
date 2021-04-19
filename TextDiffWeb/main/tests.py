@@ -36,3 +36,8 @@ class TextsModelTest(TestCase):
         answer = TextToDiff.parse(texts.text)
         self.assertEquals(answer, True)
 
+    def test_get_symbol_num(self):
+        text="I'm the strongest hero, who beat big number of demons"
+        answer = TextToDiff.symb(text)
+        self.assertEquals(answer, int(42))
+

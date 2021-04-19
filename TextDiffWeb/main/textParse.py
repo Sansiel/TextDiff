@@ -8,14 +8,23 @@ class TextToDiff:
         pass
 
     @staticmethod
-    def parse(text):
+    def parse(text):  #Определение языка
         if detect(text) == 'en':
             return True
         else:
             return False
 
     @staticmethod
-    def diff(text, summary_dict):
+    def symb(text):  #Определение кол-ва символов
+        text = str(text).lower()
+        count = 0
+        for letter in text:
+            if parse(letter): count+=1
+        return count
+
+
+    @staticmethod
+    def diff(text, summary_dict):  #Определение сложности
         text = str(text).lower()  # Данные
         punctuations = "?:!.,;"
         words = 0
@@ -48,7 +57,7 @@ class TextToDiff:
         return x
 
     @staticmethod
-    def get_summary_dict():
+    def get_summary_dict():  #Получение словаря, если он не передаётся
         inp = open('.//main//en_dict.txt', encoding='utf-8')
         # inp = open('.//main//lemmas.txt', encoding='utf-8')
         summary_dict = {}
