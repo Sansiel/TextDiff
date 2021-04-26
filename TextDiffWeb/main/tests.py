@@ -21,7 +21,7 @@ class TextsModelTest(TestCase):
 
         answer = TextToDiff.diff(texts.text, static_dict)
         # answer = TextToDiff.diff(texts.text, None)
-        self.assertEquals(answer, float("2.92"))
+        self.assertEquals(answer, float("58"))
 
     def test_difficulty_with_big_data(self):  # Тест функции подсчёта сложности BIG DATA
         inp = open('.//main//text.txt')
@@ -29,7 +29,7 @@ class TextsModelTest(TestCase):
         for line in inp:
             string += str(line)
         answer = TextToDiff.diff(string, None)
-        self.assertEquals(answer, float("3.76"))
+        self.assertEquals(answer, float("75"))
 
     def test_parse(self):  # Тест функции определения языка
         texts = Texts.objects.get(id=1)

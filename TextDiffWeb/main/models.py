@@ -15,7 +15,7 @@ def gen_diff(s):
     td = TextToDiff.diff(s, None)
     return td
 
-def gen_diff(s):
+def gen_symbol(s):
     sym = TextToDiff.symb(s)
     return sym
 

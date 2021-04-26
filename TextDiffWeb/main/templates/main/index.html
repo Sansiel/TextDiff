@@ -9,13 +9,13 @@
     {% if texts %}
         {% for el in texts %}
 
-            {% if el.score<70 %}  <!-- Разые цвета по просьбе пользователя -->
-            <div class="card text-white bg-danger mb-3">
-                {% elseif el.score<=80 %}
-            <div class="card text-white bg-success mb-3">
-                {% else %}
-            <div class="card mb-4">
-                {% endif %}
+            {% if el.score < 70 %}  <!-- Разые цвета по просьбе пользователя -->
+                <div class="card text-white bg-danger mb-4">
+            {% elif el.score <= 80 %}
+                <div class="card text-white bg-success mb-4">
+            {% else %}
+                <div class="card text-white bg-warning mb-4">
+            {% endif %}
 
                 <div class="card-header">
                    <h2 class=card-title"> {{ el.title }} </h2>
@@ -24,7 +24,15 @@
                     <h5 class="card-title">Сложность = {{ el.score }}  из 100 </h5>
                     <h5 class="card-title">Кол-во символов = {{ el.symbol }} </h5> <!-- кол-во символов в тексте по просьбе пользователя -->
                     <p class="card-text">{{ el.text|truncatewords:15 }}</p>
-                    <a href="{{ el.get_absolute_url }}" class="btn btn-light">Read</a>
+
+
+                    {% if el.score < 70 %}  <!-- Разые цвета по просьбе пользователя -->
+                        <a href="{{ el.get_absolute_url }}" class="btn btn-danger">Read</a>
+                    {% elif el.score <= 80 %}
+                        <a href="{{ el.get_absolute_url }}" class="btn btn-success">Read</a>
+                    {% else %}
+                        <a href="{{ el.get_absolute_url }}" class="btn btn-warning">Read</a>
+                    {% endif %}
                 </div>
             </div>
         {% endfor %}

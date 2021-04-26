@@ -16,15 +16,13 @@ def about(request):
 def create(request):
     error = ''
     if request.method == "POST":  # Гипотетически позволяет задать действие с вызовом POST
-        print("work")
         form = TextsForm(request.POST)
+        form.errors
         if form.is_valid():
-            print("work_2")
-
             form.save()  # сохранка и редирект
             return redirect("home")
         else:
-            error = 'Форма неверна'
+            error = 'Форма неверна '+str(form.errors)
 
     form = TextsForm()
     context = {
