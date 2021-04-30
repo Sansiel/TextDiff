@@ -34,6 +34,7 @@ class TextToDiff:
         if summary_dict is None:  # Для тестирований
             summary_dict = TextToDiff.get_summary_dict()
 
+        nltk.download('punkt')
         sentence_words = nltk.word_tokenize(text)  # Морфологический анализ
         for word in sentence_words:
             if word in punctuations:
