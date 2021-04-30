@@ -1,1 +1,1 @@
-web: gunicorn TextDiff:app --log-file -
+web: gunicorn TextDiffWeb.wsgi --log-file -
