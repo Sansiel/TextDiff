@@ -28,7 +28,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '%2=6%5b#-dcwiqtu-5&my7oiuwk8zn
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['text-difficult.herokuapp.com','127.0.0.1']
 
 
 # Короч. Тут всё подрубается. Если над будет чёт кроме main... я надеюсь вспоню и найду
