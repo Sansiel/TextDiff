@@ -31,10 +31,15 @@ class TextsModelTest(TestCase):
         answer = TextToDiff.diff(string, None)
         self.assertEquals(answer, float("75"))
 
-    def test_parse(self):  # Тест функции определения языка
+    def test_parse_en(self):  # Тест функции определения языка
         texts = Texts.objects.get(id=1)
         answer = TextToDiff.parse(texts.text)
         self.assertEquals(answer, True)
+
+    def test_parse_ru(self):  # Тест функции определения языка
+        texts = "Привет"
+        answer = TextToDiff.parse(texts)
+        self.assertEquals(answer, False)
 
     def test_get_symbol_num(self):
         text="I'm the strongest hero, who beat big number of demons"
