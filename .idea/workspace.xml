@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2a7178-13d6-46f5-bb7f-ab72f36c7ecc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/TextDiffWeb/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/TextDiffWeb/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/TextDiffWeb/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/TextDiffWeb/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/TextDiffWeb/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/dictionary_model_fill.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/en_dict.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/lemmas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/migrations/Архив миграций.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/templates/main/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/templates/main/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/templates/main/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/templates/main/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/templates/main/text_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/textParse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/main/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextDiffWeb/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,10 +126,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618162876362" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1619806319264">
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1621940440928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1619806319263" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1621940440928" />
     <state x="410" y="142" width="700" height="530" key="recent.locations.popup" timestamp="1614162003420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

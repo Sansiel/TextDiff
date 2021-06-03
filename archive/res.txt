@@ -1,0 +1,4 @@
+https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html
+https://pythonworld.ru/tipy-dannyx-v-python/fajly-rabota-s-fajlami.html
+https://pythonworld.ru/moduli/modul-os.html
+https://www.wordfrequency.info/top5000.asp

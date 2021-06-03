@@ -1,0 +1,66 @@
+Java is an object-oriented programming language. When you do work in Java, you primarily use objects to get the job done. You create objects, modify them, change their variables, call their methods, and combine them with other objects. You develop classes, create objects out of those classes, and use them with other classes and objects.
+Today, you work extensively with objects as you undertake these essential tasks:
+•	Creating objects
+•	Testing and modifying their class and instance variables
+•	Calling an object’s methods
+•	Converting objects from one class to another
+Creating New Objects
+When you write a Java program, you define a set of classes. As you learned during Day 1, “Getting Started with Java,” a class is a template used to create one or more objects. These objects, which also are called instances, are self-contained elements of a program with related features and data. For the most part, you use the class merely to create instances and then work with those instances. In this section, you learn how to create a new object from any given class.
+When using strings during Day 2, “The ABCs of Programming,” you learned that a string literal (a series of characters enclosed in double quotation marks) can be used to create a new instance of the class String with the value of that string.
+The String class is unusual in that respect. Although it’s a class, it can be assigned a value with a literal as if it was a primitive data type. This shortcut is available only for strings and classes that represent primitive data types, such as Integer and Double. To create instances for all other classes, the new operator is used.
+What about the literals for numbers and characters? Don’t they create objects too? Actually, they don’t. The primitive data types for numbers and characters create numbers and characters, but for efficiency they actually aren’t objects. On Day 5, “Creating Classes and Methods,” you learn how to use objects to represent primitive values.
+Using new
+To create a new object, you use the new operator with the name of the class that should be used as a template. The name of the class is followed by parentheses, as in these three examples:
+String name = new String("Hal Jordan");
+URL address = new URL("http://www.java21days.com");
+MarsRobot robbie = new MarsRobot();
+The parentheses are important and can’t be omitted. They can be empty, however, in which case the most simple, basic object of that class is created. The parentheses also can contain arguments that determine the values of instance variables or other initial qualities of that object.
+Here are two objects being created with arguments:
+Random seed = new Random(606843071);
+Point pt = new Point(0, 0);
+The number and type of arguments to include inside the parentheses are defined by the class itself using a special method called a constructor (which is introduced later today). If you try to create a new instance of a class with the wrong number or wrong type of arguments, or if you give it no arguments and it needs them, an error occurs when the program is compiled.
+Today’s first project is a demonstration of creating different types of objects with different numbers and types of arguments. The StringTokenizer class in the java.util package divides a string into a series of shorter strings called tokens.
+You divide a string into tokens by applying a character or characters as a delimiter. For example, the text “02/20/67” could be divided into three tokens—“02”, “20”, and “67”—using the slash character / as a delimiter.
+Today’s first project is a Java application that uses string tokens to analyze stock price data. In NetBeans, create a new empty Java file for the class TokenTester in the com.java21days package, and enter the code in Listing 3.1 as its source code. This program creates StringTokenizer objects by using new in two different ways and then displays each token the objects contain.
+LISTING 3.1 The Full Text of TokenTester.java
+ 1: package com.java21days;
+ 2:
+ 3: import java.util.StringTokenizer;
+ 5: class TokenTester {
+ 6:
+ 7:     public static void main(String[] arguments) {
+ 8:         StringTokenizer st1, st2;
+ 9:
+10:         String quote1 = "GOOG 530.80 -9.98";
+11:         st1 = new StringTokenizer(quote1);
+12:         System.out.println("Token 1: " + st1.nextToken());
+13:         System.out.println("Token 2: " + st1.nextToken());
+14:         System.out.println("Token 3: " + st1.nextToken());
+15:
+16:         String quote2 = "RHT@75.00@0.22";
+17:         st2 = new StringTokenizer(quote2, "@");
+18:         System.out.println("\nToken 1: " + st2.nextToken());
+19:         System.out.println("Token 2: " + st2.nextToken());
+20:         System.out.println("Token 3: " + st2.nextToken());
+21:     }
+22: }
+Save this file by choosing File, Save or clicking Save All on the NetBeans toolbar. Run the application by choosing Run, Run File to see the output displayed in Figure 3.1.
+Two different StringTokenizer objects are created using different arguments to the constructor.
+The first object is created using new StringTokenizer() with one argument, a String object named quote1 (line 11). This creates a StringTokenizer object that uses the default delimiters, which are blank spaces, tabs, newlines, carriage returns, or formfeed characters.
+If any of these characters is contained in the string, it is used to divide the string. Because the quote1string contains spaces, these are used as delimiters dividing each token. Lines 12–14 display the values of all three tokens: “GOOG”, “530.80”, and “–9.98”.
+The second StringTokenizer object in this example has two arguments when it is constructed in line 16—a String object named quote2 and an at-sign character @. This second argument indicates that the @ character should be used as the delimiter between tokens. The StringTokenizer object created in line 17 contains three tokens: “RHT”, “75.00”, and “0.22”.
+How Objects Are Constructed
+Several things happen when you use the new operator. The new instance of the given class is created, memory is allocated for it, and a special method defined in the given class is called. This method is called a constructor.
+A constructor is a way to create a new instance of a class. A constructor initializes the new object and its variables, creates any other objects that the object needs, and performs any additional operations the object requires to initialize itself.
+A class can have several different constructors, each with a different number or type of argument. When you use new, you can specify different arguments in the argument list, and the correct constructor for those arguments is called.
+In the TokenTester project, multiple constructor definitions enabled the StringTokenizer class to accomplish different things with different uses of the new operator. When you create your own classes, you can define as many constructors as you need to implement the behavior of the class.
+No two constructors in a class can have the same number and type of arguments, because this is the only way constructors are differentiated from each other.
+If a class defines no constructors, a constructor with no arguments is called by default when an object of the class is created. The only thing this constructor does is call the same constructor in its superclass.
+The default constructor only exists in a class that has not defined any constructors. Once you define at least one constructor in a class, you can’t count on there being a default constructor with no arguments.
+A Note on Memory Management
+If you are familiar with other object-oriented programming languages, you might wonder whether the new operator has an opposite that destroys an object when it is no longer needed.
+Memory management in Java is dynamic and automatic. When you create a new object, Java automatically allocates the proper amount of memory for that object. You don’t have to allocate any memory for objects explicitly. The Java Virtual Machine (JVM) does it for you.
+Because Java memory management is automatic, you don’t need to deallocate the memory an object uses when you’re finished using it. Under most circumstances, when you are finished with an object you have created, Java can determine that the object no longer has any live references to it. (In other words, the object isn’t assigned to any variables still in use or stored in any arrays.)
+As a program runs, the JVM periodically looks for unused objects and reclaims the memory that those objects are using. This process is called dynamic garbage collection and occurs without any programming on your part. You don’t have to explicitly free the memory taken up by an object; you just have to make sure that you’re not still holding onto an object you want to get rid of.
+This feature is one of the most touted advantages of the language over its predecessor C++
+

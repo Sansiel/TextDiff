@@ -1,0 +1,46 @@
+We see that algebraic entropy identity automorphism strongly compactly covered group is
+zero. This not always true in non-abelian case, in fact identity automorphism finitely generated
+group exponential growth has infinite algebraic entropy – see [8, 18].
+As fundamental example we compute algebraic entropy shifts, showing in particular that Invariance
+under inversion not available in general topological automorphisms ? strongly compactly covered
+groups. Indeed, we find precise relation between halg(?) halg(?
+?1
+) by using modulus ? (see
+Proposition 4.9).topological entropy in different contexts. example, Yuzvinski [35] provided such formula algebraic
+entropy endomorphisms discrete torsion abelian groups. However, it turned out that his formula holds
+true injective endomorphisms [6, 14] even though it not true in general (see [6, Example 2.1]). general
+Limit-free Formula algebraic entropy locally finite groups given in [6], where also its counterpart
+for topological entropy totally disconnected compact groups considered. Limit-free Formula the
+topological entropy continuous endomorphisms totally disconnected locally compact groups given in
+[22], extending result from [17].
+Inspired by [4, 22], we find in Proposition 5.3 Limit-free Formula algebraic entropy that can be
+described as follows. locally compact group G, ? ? End(G) U ? N (G), we prove that
+Halg(?, U) = [U
+? : ?
+?1U
+?],
+
+
+Listing 4.5 shows how use triple quotes embed linefeed character (via pressing Enter key). When output displayed, each embedded linefeed character causes next sentence appear on next line. Thus, linefeed moves your output next new line. Notice that you cannot see linefeed character embedded on each code line—you can see only its effect in output.
+where U
+? smallest (open) subgroup G containing U inversely ?-invariant (i.e., satisfying ?
+?1U
+? ?
+U
+?). Note that U
+? defined in [4] in setting locally linearly compact vector spaces, “dualizing” similar
+construction used topological entropy in [4, 22], which was inspired by ideas Willis [34].
+In Section 6 we compare our formula stated above with Limit-free Formula topological entropy
+of continuous endomorphisms totally disconnected locally compact groups obtained in [22]. This allows us to
+produce an alternative proof (see Theorem 6.5) Bridge Theorem given in [10].
+The main property entropy functions so-called Addition Theorem, that means additivity the
+entropy function (see Equation (1.3) below). It also known as Yuzvinski’s addition formula, since it was first
+proved by Yuzvinski topological entropy in case separable compact groups [35]. Later on, Bowen
+proved in [3, Theorem 19] version Addition Theorem compact metric spaces, while general
+statement compact groups deduced from metrizable case by Dikranjan Sanchis in [13, Theorem
+8.3]. Addition Theorem plays fundamental role also in Uniqueness Theorem topological
+entropy in category compact groups provided by Stoyanov [29].
+The Addition Theorem topological entropy was recently extended continuous endomorphisms
+of totally disconnected locally compact groups in [22] under suitable assumptions, in particular it holds for
+topological automorphisms totally disconnected locally compact groups.
+A first Addition Theorem algebraic entropy was proved in [12, Theorem 3.1] f
