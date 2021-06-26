@@ -2,7 +2,7 @@ import plotly.offline as py
 import plotly.graph_objs as go
 import os
 
-inp = open('en_out.txt')
+inp = open('en_out_2.txt')
 x = []
 y = []
 i = 0
