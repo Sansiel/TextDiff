@@ -1,0 +1,37 @@
+[ { id: 1, title: 'Learning WatchKit Programming Responding to User Actions', source: "https://www.informit.com/articles/index.aspx?st=60206", difficulty: 3.0, length:7500, text: [ `Designing the user interface (UI) for your Apple Watch application is similar to designing for the iPhone. However, space is at a premium on the Apple Watch, and every millimeter on the screen must be put to good use in order to convey the exact intention of your app.
+`,
+`
+`,
+`The UI of an Apple Watch application is represented by various controls (commonly known as views in iOS programming), and they are divided into two main categories:
+`,
+`
+`,
+`Responding to user actions: Users directly interact with these controls to perform some actions. Examples of such controls are Button, Switch, Slider, Picker, and Table.
+`,
+`Displaying information: These controls mainly display information to the user. Examples of such controls are Label, Image, and Table.
+`,
+`In this and the next chapter, you learn how to use these various controls to build the UI of your application.
+`,
+`
+`,
+`Using the Tap Gesture to Interact with Controls
+`,
+`One key way to interact with the Apple Watch is to use the tap gesture. You can tap the following controls
+`,
+`Button
+`,
+`The Button control is the most direct way of interacting with an Apple Watch application. A button can display text as well as a background image. Tapping a button triggers an action on the Interface Controller where you can write the code to perform the appropriate action.
+`,
+`Switch
+`,
+`The Switch control allows the user to toggle between the ON and OFF states. It is commonly used in cases where you allow users to enable or disable a particular setting. In the following example, you will create a project and see how the Switch control works
+`,
+`Slider
+`,
+`The Slider control is a visual control with two buttons (– and +) that allow the user to decrement or increment a floating-point value. It is usually used in situations where you want the user to select from a range of values, such as the temperature settings in a thermostat or the volume of the iPhone.
+`,
+`Alerts and Action Sheets
+`,
+`In watchOS 2, Apple now allows developers to display alerts and actions just like they did in iPhone and iPad
+`,
+ ] }

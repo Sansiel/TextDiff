@@ -1,0 +1,19 @@
+New technologies are constantly being developed, and existing ones keep changing. Which programming languages and technologies will become even more important in 2016? In this article, I gaze into the crystal ball to identify 10 current language and technology trends that will be worth your time in pursuing next year. My prognostications are based on information gleaned from Google Trends, GitHub, TIOBE Software, and other websites (such as Indeed.com's job search). The first section of this article focuses on language trends, and the second section focuses on technology trends.
+
+Language Trends
+To further your career, what programming languages should you target for 2016? This section identifies several languages to consider, and I explain why they're important. My choices are based largely on information gleaned from the most recent TIOBE  Index at the time of writing, as well as GitHub's language  trends and data from Google Trends. Finally, I considered language applicability to the trending technologies covered in this article.
+
+C and C++
+C is a general-purpose, structured programming language that's biased toward system programming. C++ is a general-purpose, object-oriented programming language that's an outgrowth of C and is also biased toward system programming.
+
+You might not think of the C and C++ languages as trendy, but the data shows otherwise. According to TIOBE Index (see Figure 1), C is in second place and C++ in third place based on search results across multiple search engines.
+
+Java
+Java is a  general-purpose programming language that's concurrent, class-based, object-oriented, and designed to have as few implementation dependencies as possible. Java applications are compiled to bytecode, which executes on any Java-supported platform, leading to a high degree of portability. Java is also a  software platform largely consisting of a virtual machine for executing bytecode.
+
+The TIOBE Index ranks Java as the most popular programming language (refer to Figure 1). GitHub ranks Java as the second most popular programming language (refer to Figure 2). If you enter Java programming language into Google Trends, you'll see that interest in Java has been steadily increasing since 2007. Java's pace of evolution is largely responsible for the enduring interest. For example, enter Java 8 into Google Trends, and you'll see a sharp uptake in Java's popularity, which is most likely the result of introducing Lambda expressions and the Streams API. Conversely, interest in the Java software platform and Java virtual machine has fallen.
+
+Java is widely used in enterprise  computing. It's also widely used in Big Data (discussed later) contexts via projects such as Apache Hadoop. Another widely used domain is embedded  devices and the Internet of Things, where Java's portability and security features are advantages. Finally, Java is widely used to write source code for Android apps. However, the Java version for Android is based on Apache Harmony and not on Oracle's version of Java.
+
+Many jobs are currently waiting for Java developers to fill them. For example, a recent search for Java jobs on  Indeed.com revealed nearly 90,000 jobs in the United States. Java will undoubtedly gain more interest in 2016, when Java 9 arrives with its Java Module System. This capability will make it easier to move Java to many more platforms, resulting in many additional job opportunities.
+

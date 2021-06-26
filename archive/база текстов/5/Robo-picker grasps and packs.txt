@@ -1,0 +1,20 @@
+Unpacking groceries is a straightforward albeit tedious task: You reach into a bag, feel around for an item, and pull it out. A quick glance will tell you what the item is and where it should be stored.
+
+Now engineers from MIT and Princeton University have developed a robotic system that may one day lend a hand with this household chore, as well as assist in other picking and sorting tasks, from organizing products in a warehouse to clearing debris from a disaster zone.
+
+The team's "pick-and-place" system consists of a standard industrial robotic arm that the researchers outfitted with a custom gripper and suction cup. They developed an "object-agnostic" grasping algorithm that enables the robot to assess a bin of random objects and determine the best way to grip or suction onto an item amid the clutter, without having to know anything about the object before picking it up.
+
+Once it has successfully grasped an item, the robot lifts it out from the bin. A set of cameras then takes images of the object from various angles, and with the help of a new image-matching algorithm the robot can compare the images of the picked object with a library of other images to find the closest match. In this way, the robot identifies the object, then stows it away in a separate bin.
+
+In general, the robot follows a "grasp-first-then-recognize" workflow, which turns out to be an effective sequence compared to other pick-and-place technologies.
+
+"This can be applied to warehouse sorting, but also may be used to pick things from your kitchen cabinet or clear debris after an accident. There are many situations where picking technologies could have an impact," says Alberto Rodriguez, the Walter Henry Gale Career Development Professor in Mechanical Engineering at MIT.
+
+Rodriguez and his colleagues at MIT and Princeton will present a paper detailing their system at the IEEE International Conference on Robotics and Automation, in May.
+
+Building a library of successes and failures
+
+While pick-and-place technologies may have many uses, existing systems are typically designed to function only in tightly controlled environments.
+
+Today, most industrial picking robots are designed for one specific, repetitive task, such as gripping a car part off an assembly line, always in the same, carefully calibrated orientation. However, Rodriguez is working to design robots as more flexible, adaptable, and intelligent pickers, for unstructured settings such as retail warehouses, where a picker may consistently encounter and have to sort hundreds, if not thousands of novel objects each day, often amid dense clutter.
+

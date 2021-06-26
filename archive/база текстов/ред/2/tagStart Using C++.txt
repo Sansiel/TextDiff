@@ -1,0 +1,39 @@
+[ { id: 1, title: 'Start Using C++', source: "https://www.informit.com/articles/index.aspx?st=60206", difficulty: 2.7, length:7500, text: [ `I’m going to assume at first that you’re using Microsoft Visual Studio, Community Edition. This includes an excellent C++ compiler—it’s powerful, fast, and has nearly all of the up-to-date features. However, the Microsoft compiler raises some special issues, and one of the purposes of this chapter is to acquaint you with those issues so you can successfully use C++.
+`,
+`
+`,
+`If you’re not using this compiler, skip ahead to the section, “If You’re Not Using Microsoft.”
+`,
+`
+`,
+`I’ll get into the more abstract aspects of C++ later, but first let’s get that compiler installed.
+`,
+`
+`,
+`Install Microsoft Visual Studio
+`,
+`Even if you have an older version of Microsoft Visual Studio, you should consider updating to the current Community Edition, because it has nearly all the up-to-date features presented in this book. If you’re already running Enterprise Edition, congratulations, but make sure it’s up to date.
+`,
+`
+`,
+`Here are the steps for installing Microsoft Visual Studio Community Edition:
+`,
+`
+`,
+`If all goes well, Microsoft Visual Studio, which includes the Microsoft C++ compiler, should be installed on your computer, and you’re ready to start programming. First, however, you need to create a project
+`,
+`Create a Project with Microsoft
+`,
+`There are some files and settings you need for even the simplest program, but Visual Studio puts all the items you need into something called a project.
+`,
+`
+`,
+`With Visual Studio, Microsoft makes things easy by providing everything you need when you create a project. Note that you will need to create a new project for each program you work on.
+`,
+`
+`,
+`So let’s create a project.
+`,
+`
+`,
+ ] }

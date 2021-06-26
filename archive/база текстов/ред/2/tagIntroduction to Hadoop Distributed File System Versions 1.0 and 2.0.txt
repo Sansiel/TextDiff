@@ -1,0 +1,56 @@
+[ { id: 1, title: 'Introduction to Hadoop Distributed File System Versions 1.0 and 2.0å', source: "https://www.informit.com/articles/index.aspx?st=60206", difficulty: 3.2, length:7500, text: [ `In this hour, you take a detailed look at the Hadoop Distributed File System (HDFS), one of the core components of Hadoop for storing data in a distributed manner in the Hadoop cluster. You look at its architecture and how data gets stored. You check out its processes of reading from HDFS and writing data to HDFS, as well as its internal behavior to ensure fault tolerance. In addition, you delve into HDFS 2.0, which comes as a part of Hadoop 2.0, to see how it overcomes the limitations of Hadoop 1.0 and provides high availability and scalability enhancements.
+`,
+`
+`,
+`Introduction to HDFS
+`,
+`The Hadoop Distributed File System (HDFS) is based on the Google File System (GFS) and written entirely in Java. Google provided only a white paper, without any implementation; however, around 90 percent of the GFS architecture has been applied in its implementation in the form of HDFS.
+`,
+`
+`,
+`HDFS is a highly scalable, distributed, load-balanced, portable, and fault-tolerant (with built-in redundancy at the software level) storage component of Hadoop. In other words, HDFS is the underpinnings of the Hadoop cluster. It provides a distributed, fault-tolerant storage layer for storing Big Data in a traditional, hierarchical file organization of directories and files. HDFS has been designed to run on commodity hardware.
+`,
+`
+`,
+`HDFS was originally built as a storage infrastructure for the Apache Nutch web search engine project. It was initially called the Nutch Distributed File System (NDFS).
+`,
+`
+`,
+`These were the assumptions and design goals when HDFS was implemented originally:
+`,
+`
+`,
+`Horizontal scalability—HDFS is based on a scale-out model and can scale up to thousands of nodes, for terabytes or petabytes of data. As the load increases, you can keep increasing nodes (or data nodes) for additional storage and more processing power.
+`,
+`Fault tolerance—HDFS assumes that failures (hardware and software) are common and transparently ensures data redundancy (by default, creating three copies of data: two copies on the same rack and one copy on a different rack so that it can survive even rack failure) to provide fault-tolerant storage. If one copy becomes inaccessible or gets corrupted, the developers and administrators don’t need to worry about it—the framework itself takes care of it transparently.
+`,
+`
+`,
+`In other words, instead of relying on hardware to deliver high availability, the framework itself was designed to detect and handle failures at the application layer. Hence, it delivers a highly reliable and available storage service with automatic recovery from failure on top of a cluster of machines, even if the machines (disk, node, or rack) are prone to failure.
+`,
+`
+`,
+`Capability to run on commodity hardware—HDFS has lower upfront hardware costs because it runs on commodity hardware. This differs from RDBMS systems, which rely heavily on expensive proprietary hardware with scale-up capability for more storage and processing.
+`,
+`Write once, read many times—HDFS is based on a concept of write once, read multiple times, with an assumption that once data is written, it will not be modified. Hence, HDFS focuses on retrieving the data in the fastest possible way. HDFS was originally designed for batch processing, but with Hadoop 2.0, it can be used even for interactive queries.
+`,
+`Capacity to handle large data sets—HDFS works for small numbers of very large files to store large data sets needed by applications targeting HDFS. Hence, HDFS has been tuned to support files of a few gigabytes to those several terabytes in size.
+`,
+`Data locality—Every slave node in the Hadoop cluster has a data node (storage component) and a TaskTracker (processing component). When you run a query or MapReduce job, the TaskTracker normally processes data at the node where the data exists, minimizing the need for data transfer across nodes and significantly improving job performance because of data locality. This comes from the fact that moving computation near data (especially when the size of the data set is huge) is much cheaper than actually moving data near computation—it minimizes the risk of network congestion and increases the overall throughput of the system.
+`,
+`HDFS file system namespace—HDFS uses traditional hierarchical file organization, in which any user or application can create directories and recursively store files inside these directories. This enables you to create a file, delete a file, rename a file, and move a file from one directory to another one.
+`,
+`
+`,
+`For example, from the following information, you can conclude that a top-level directory named user contains two subdirectories named abc and xyz. You also know that each of these subdirectories contains one file named sampleone.txt in the abc subdirectory and one file named sampletwo.txt in the xyz subdirectory. This is just an example—in practice, a directory might contain several directories, and each of these directories might contain several files.
+`,
+`Streaming access—HDFS is based on the principle of “write once, read many times.” This supports streaming access to the data, and its whole focus is on reading the data in the fastest possible way (instead of focusing on the speed of the data write). HDFS has also been designed for batch processing more than interactive querying (although this has changed in Hadoop 2.0.
+`,
+`
+`,
+`In other words, in HDFS, reading the complete data set in the fastest possible way is more important than taking the time to fetch a single record from the data set.
+`,
+`
+`,
+`High throughput—HDFS was designed for parallel data storage and retrieval. When you run a job, it gets broken down into smaller units called tasks. These tasks are executed on multiple nodes (or data nodes) in parallel, and final results are merged to produce the final output. Reading data from multiple nodes in parallel significantly reduces the actual time to read data.`,
+ ] }

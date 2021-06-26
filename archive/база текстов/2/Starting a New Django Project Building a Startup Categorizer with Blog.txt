@@ -1,0 +1,16 @@
+1.1 Introduction
+We have a lot to do and a lot to learn, but instead of jumping right in, let’s take a moment to understand what we’re doing.
+
+Part I is an example meant to demonstrate the core features of Django. Part I is intended to be read linearly. Jump between chapters at your own peril!
+
+This first chapter is a general introduction to the modern world of building dynamic websites. We start by introducing web technologies and jargon before taking a look at Django. Our introduction to Django focuses on what Django is and appropriate ways to use it. We then outline the project we’ll build, scoping out the content for not only Part I but also Parts II and III. This overview gives us the opportunity to use Django to generate a basic project that we’ll use throughout the book.1.2 Website Basics
+Before talking about how we build websites, it’s important to understand what a website is and how it operates.
+
+When we open our browser and enter a URL such as http://google.com, our computer uses HTTP (the scheme in the URL) to talk to the computer (or set of computers) found at the google.com domain. The goal of this computer is to give us information that we are asking for.
+
+A website is a resource stored on a server. A server is simply a computer whose job is to provide a resource (a website in this case) or service and serve it to you. A website comprises one or more webpages. A webpage is a discrete entity that contains data. The core functionality of a website is to send these webpages to people who ask for them. To do this, we use a protocol (a means of communication) called Hyper Text Transfer Protocol (HTTP). Formally, a user’s browser sends an HTTP request to a website. The website then sends an HTTP response containing a webpage. The process is illustrated in Figure 1.1.The network location, or authority, is typically either an IP address (such as 127.0.0.1) or a domain name, as shown in Figure 1.2. The scheme tells the browser not only what to get but how to get it. The URL https://google.com/ tells the browser to use the HTTPS protocol (Secure HTTP) to go to the Google website and ask for the webpage found at / (the last slash on the URL is the path; if omitted, the slash is added implicitly).
+
+In Part I, we only need to use scheme, network location, and path portions of our URLs. In Chapter 14: Pagination: A Tool for Navigation, we’ll see how to make use of the query with Django. We won’t make use of fragments, as they’re typically used directly in HTML as anchors (links) internal to a single webpage.
+
+The request/response loop of the HTTP protocol and the URL are the basis of every website. Originally, it was the only part of the website. Today, websites are more full-featured and more complex.
+

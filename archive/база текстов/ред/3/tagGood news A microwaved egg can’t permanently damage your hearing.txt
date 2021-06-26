@@ -1,0 +1,25 @@
+[ { id: 1, title: 'Good news A microwaved egg can’t permanently damage your hearing', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.5, length:7500, text: [ `Earlier this year, a person was eating a hard-boiled egg at a restaurant. The egg was cold. The restaurant patron asked the waiter to warm the edible ovum up—which they probably lived to regret. When the waiter brought the dish back, the eater took a bite and the egg exploded. The customer took the restaurant to court for burns and hearing damage, which is where scientists Anthony Nash and Lauren von Blohn come in.
+`,
+`
+`,
+`
+`,
+`
+`,
+`Nash says that he was skeptical, at first, about whether an egg explosion could cause enough acoustical power to do such damage. “I was perplexed why someone would ask me to measure the sound pressure of the exploding egg,” he said during a presentation at the Acoustical Society of America. Then he saw a Youtube video called “Huge egg explosion” uploaded by user infrared213.
+`,
+`
+`,
+`And so Nash and von Blohn set off to make an experiment that imitated infrared213’s video. They discovered that the egg explosions were less than consistent. They sometimes exploded right there in the microwave and sometimes didn’t explode at all. Nash refers to this process as “egg roulette.” They eventually settled on an experiment design in which they rushed the egg out of the microwave and stabbed it with a fast-acting meat thermometer. Finally, they concluded that a single egg explosion couldn't pack the sound punch needed to permanently alter human hearing.
+`,
+`
+`,
+`While the science didn’t support the ear risks, there are still plenty of reasons to be wary of exploding eggs. In 2004, a nine-year-old girl heated a previously boiled egg still in its shell in the microwave for 40 seconds, according to a case report in the British Medical Journal. It exploded, and the eggshell became shrapnel that cut through the girl’s cornea. Only after multiple surgeries did she regain some vision in her right eye. Doctors have recorded similar incidents in the American Journal of Ophthalmology and Burns.
+`,
+`
+`,
+`Even if exploding food items don’t cause hearing or vision loss, they can cause quite the mess. This year at Thanksgiving, Barbara Airhart—my mother and an experienced cook—burst three potatoes in the oven. “I always knew you were supposed to poke holes in them with a fork,” she says. “Now I know why.”
+`,
+`
+`,
+ ] }

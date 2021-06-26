@@ -1,0 +1,25 @@
+[ { id: 1, title: 'Peggy A. Whitson', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 2.6, length:7500, text: [ `Synopsis ?
+`,
+`Peggy A. Whitson (Ph.D.) was born in Mount Ayr, Iowa on February 9, 1960. She is a NASA biochemist and astronaut and holds records for the most time spent in space by any American (more than 534 days), the most spacewalks of any woman astronaut (9 career spacewalks), the oldest woman to travel into space (at the age of 56) and the oldest woman spacewalker (at the age of 57). She is also the first woman astronaut to command the International Space Station twice (2008 and 2017) and the first woman to serve as Chief Astronaut of the NASA Office (2009). Whitson is currently the commander of Expedition 51 and is expected to return to Earth in September 2017. 
+`,
+`
+`,
+`Early Life and Education
+`,
+`Whitson was born in southwestern Iowa in the small rural town of Mount Ayr on February 9, 1960 and grew up on a farm in the nearby tiny town of Beaconsfield, Iowa with her parents Keith and Beth Whitson and older sister, Kathy. An ambitious young person, she was inspired to become an astronaut at the age of 9 while watching Buzz Aldrin and Neil Armstrong walk on the moon. Her goals were further solidified when Sally Ride became the first woman American astronaut just as Whitson graduated from Mount Ayr Community High School in 1978. 
+`,
+`
+`,
+`
+`,
+`Whitson went to nearby Iowa Wesleyan College where she was on the President's Honor Roll and received a Bachelor of Science in Biology/Chemistry in 1981, graduating summa cum laude. Afterwards, she obtained a Ph.D. in Biochemistry from Rice University in 1985 and continued as a Robert A. Welch Post-doctoral Fellow at Rice until October 1986. Whitson met her husband, Clarence Sams, while they were both pursuing their doctorates at Rice University. They married on May 6, 1989. Sams, a biochemist, is currently the manager of the Cell and Molecular Research Laboratory at the NASA Johnson Space Center in Houston.
+`,
+`
+`,
+`NASA Space Missions
+`,
+`In 1986, Whitson became a National Research Council Resident Research Associate at the NASA Johnson Space Center and worked in various biochemistry and medical science research positions for the next decade. In April 1996, Whitson was selected as an Astronaut Candidate. After completing years of rigorous space-flight training, Whitson joined the Expedition 5 crew and traveled into space for the first time on June 5, 2002 aboard the shuttle Endeavour as a flight engineer and spent 184 days in space conducting over 20 experiments in microgravity and human life sciences. In June 2003, Whitson lived and worked underwater for two weeks as the commander of the NEEMO (NASA Extreme Environment Mission Operations) 5 mission aboard the Aquarius underwater laboratory.
+`,
+`
+`,
+ ] }

@@ -1,0 +1,68 @@
+We’ve all heard the common myth, Agile means no documentation. While other agile fallacies exist, this is a big one, and it could not be farther from the truth. Good agile teams are disciplined about their documentation but are also deliberate about how much they do and when. In this chapter’s story, we find a duo struggling to explain that while they won’t be fully documenting everything up front, they will actually be more fully documenting the entire project from beginning to end.
+
+The Story
+“Hey, you two,” said Ashley, stopping Carter and Noel in the hallway as they passed by her office. “I’ve been sensing some resistance from you over the initial project documentation. I need it by next Friday for project sign off, okay?” Ashley looked back at her computer and began typing again, clearly expecting a quick answer.
+
+Carter and Noel looked at each other, then back at Ashley, their manager, before replying. They had known this conversation was coming but didn’t realize they’d be accosted in the hallway by an obviously harried Ashley when it did.
+
+“Listen, we can document everything up front like you ask,” Noel began, as she and Carter moved to stand close to Ashley’s doorway. “But we don’t think it’s the best approach. Things change, and we cannot promise you that things will go as planned. Further—” Ashley stopped typing and looked up, interrupting Noel mid-stream.
+
+“Look, I don’t want to argue about something as basic as documentation. I just need it on my desk by Friday.”
+
+Carter spoke up.
+
+“Ashley,” he began. “Can I have five minutes to communicate a different approach? I know you have a full plate, but I think it’s important for you to try to understand this point before we table our discussion.”
+
+Ashley glanced at her watch and nodded. “Five minutes. Go.”
+
+“When I was in college, I worked for our university newspaper,” Carter explained. “I was a sports photographer and always attended local football games with the sports writers. I was on the field, and they were in the stands.
+
+“It probably won’t surprise you to hear that not one of those sports writers came to the football game with the story already written. Now, they might have done some research on the players. They might have talked to the coaches about their game plans. They might even have asked me to be sure to get some shots of particular players. But they never wrote the article before the game even began.
+
+“That’s kind of what you are asking us to do with the software. You want the complete story of how this application will unfold, including the final game score, before we’ve even started playing,” said Carter.
+
+Ashley replied, “Well, that’s how we get things done around here. Without the up-front documentation—design docs, use cases, master requirements docs, architectural designs, and release plans—I won’t get project approval, and I can’t be sure that you two and the rest of the team understand what we need to build.”
+
+“Right. I get that,” agreed Carter. “It’s not unreasonable for you to want some information before we get started. And you should expect to receive frequent updates from us on what’s going on with the project. After all, the reporters I used to work with would take notes and write snippets of the article about the game as it was unfolding. Periodically, we would get together to discuss the angle they were working on and some of the shots I had captured so far.
+
+“But to ask us to tell you what the software will look like, exactly how much it will cost, and precisely when we’ll be done is like asking us to predict the final score of the football game. We can tell you how we think it’s going to go, but when things are changing and unfolding, it’s difficult to predict all the details.”
+
+Ashley nodded. “But things aren’t always that volatile with our projects. We know basically what we want this to look like. It’s only some of the features we aren’t sure of.”
+
+“Right,” chimed in Noel. “And on projects where we can nail down most of the variables and have a clear picture of the final product, we can give you more up-front documentation.”
+
+Carter nodded. “To go back to my sports writer analogy, there were times when one team was clearly dominating—the game was a blowout. In those cases, the reporters had their stories mostly written by halftime. They’d already come up with the headline, filled in a lot of the details, and were just waiting until the end of the game to add the final stats and score.
+
+“Most times, though, the games were close and the outcome uncertain. In those cases, the reporters would keep filling in the skeleton of the story with the events as they happened in real time. They would come down to the field at halftime, and we would discuss the unfolding story. We’d strategize and say, ‘If the game goes this way, we’ll take this approach. But if it goes that way, we’ll take this other approach.’
+
+“Likewise, the level of detail in our documentation at any given point in the project should depend on how certain we are that things aren’t going to change.”
+
+Ashley leaned back in her chair with her hand on her chin, deep in thought. Noel decided to go in for the kill.
+
+“Ashley, remember the 1989 San Francisco earthquake, or the quake and tsunami in Japan? Or when either Reagan or Kennedy were shot?”
+
+Ashley nodded.
+
+“Well, you would notice a trend in all these events. In the initial accounts, the media headlines conveyed the tragic event, but with very few details. All they could tell us at first was generally what had happened (explosion/quake/tsunami/shots fired), when, and where. Why? Because the events were still unfolding, and that was all anyone knew. As the reporters on scene learned more, they added the new facts and changed the headlines.
+
+“All the little updates, facts, and details were important to capture in real time, even if they later had to be changed to reflect new information. Without continuous briefings, many of the details surrounding the events would have been forgotten in the chaos of the devastation. The reporters didn’t try to write more up front than the facts they knew. Instead, the reporters recorded what they did know as they went along. Later, after the details had solidified, they went back through the various articles and wrote a larger, encompassing synopsis that outlined the specific event from the initial reports to the current state,” Noel explained.
+
+“That’s what we’re suggesting we do: Make our documentation a story in progress. Are we making sense?” asked Carter.
+
+Ashley sat forward.
+
+“I think I get it now. What I originally heard you say was, ‘I can’t give you documentation.’ But what you’re actually saying is that you will document certain things up front, most things in real time, updating them as necessary to reflect reality, and some things after the fact. But what does that mean in terms of software exactly? I need certain documents to get the project approved, such as the master requirements documentation outlining all the use cases.”
+
+Noel answered, “We will provide that MRD, but it will be in the form of a product backlog, with stories at different levels of detail. Some of the stories will be headlines only. Others will be fully fleshed out, maybe to the point of use cases. For example, the team has a good idea of the architectural direction, which gives us insight into what stories to build for the first six or so sprints, but after that, things get fuzzy. We know that you want us to capture the details, and we have those details for the higher-priority stories, but we don’t have them for the stories off in the distance. For those, we might only have headline-level information.”
+
+Ashley asked, “But if we don’t capture details up front, won’t they get lost? And don’t you then have to spend a significant amount of time getting and documenting that information during the project, if they can be found at all? How can you ensure that what is being built is correct?”
+
+“Remember, like any good journalist, we will document as we go, as soon as we can, without doing too much. That way when we get to the point where the UI stabilizes, let’s say, we can create the more detailed documentation that the company needs and that we need to deliver in the form of user manuals and such. We won’t lose our details because we’ll be going over those details every sprint with the team, documenting them as part of our definition of done, and checking with the stakeholders to ensure we’re on track, to ensure that what is being asked is what we are building and matches what the customers meant. Keeping documentation up to date a little at a time is just part of the cost of building working software. If things change along the way, we will update what we have written to reflect the change. It’s a balance between stability and volatility. The more volatile something is, the more careful we need to be in what level we document. If it’s stable, we can do something such as a large database diagram model in a tool. If it’s volatile, we might just draw a picture on the whiteboard—again, both are documents, database models to be exact, but they are very different in terms of formality,” finished Noel.
+
+“So, are we on the same page?” asked Carter.
+
+“Yes,” said Ashley. “I get it now. I think this is a good approach and something that I will advocate, provided you give me regular feedback so I can update executive management. But I still need the big headlines by Friday. Agreed?”
+
+“Agreed,” said Carter and Noel together.
+
+And that was that.

@@ -1,0 +1,14 @@
+New research has developed an automated approach for narrowing down and ranking the field of Division 1 college basketball teams from 351 to the 68 that would play in the annual "March Madness" basketball tournaments, watched by more than 80 million people each year.
+
+Each year, a rotating 10-person committee is tasked with selecting and seeding teams to compete in the National Collegiate Athletic Association (NCAA) Men's Basketball Tournament. The new automated approach would be capable of potentially replacing the current manual system, to remove any questions of bias and the potential for human error.
+
+The study, "Using Mathematical Programming to Select and Seed Teams for the NCAA Tournament," conducted by Bruce Reinig of San Diego State University and Ira Horowitz of the University of Florida, will be published in the INFORMS journal Interfaces.
+
+"The algorithm can be applied to any season and is uninfluenced by prior committee structures, tournament outcomes and the results of previous seasons," said Reinig.
+
+Using data from the five NCAA tournaments held from 2012 to 2016, the researchers created an algorithm that quickly and consistently created a tournament ranking that was in keeping with the committee's rankings for that year.
+
+When applied to the teams for the 2017 tournament, the algorithm identified 37 of the top 38 teams that were also selected by that year's NCAA committee. When seeding, or ranking each team to decide who and when they will each play, 24 of them were an exact match, and 77.6 percent were within one seed of being a match, and 89.6 percent were within two seeds of being a match with the committee's rankings.
+
+"This system can also provide valuable insight to athletic directors and conference administrators regarding the impact of scheduling changes on a team's tournament performance or chances of receiving a favorable seed," added Horowitz.
+

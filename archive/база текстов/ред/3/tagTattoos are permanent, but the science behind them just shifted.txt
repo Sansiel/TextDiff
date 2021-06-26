@@ -1,0 +1,22 @@
+[ { id: 1, title: 'Tattoos are permanent, but the science behind them just shifted', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.5, length:7500, text: [ `New research suggests that our bodies might have an intriguing way of handling tattoos—and the findings could eventually help us get better at removing them.
+`,
+`If you ask most people how tattoos work, they’re likely to get it a little bit wrong. The most pervasive oversimplification is that tattoo needles inject ink into the skin, deep enough that it stays put. In fact, tattoo needles are more like the nib of a fountain pen than a syringe; the ink isn’t shot down through the needle, but suspended at the end of it when an artist dips the tool into a well. Then, when the tip of the needle pierces a hole in the recipient’s skin (both the epidermis and the dermis beneath it), capillary action—the same force that makes liquid creep up the sides of a straw—draws the ink down into the dermis.
+`,
+`
+`,
+`That’s how the ink gets into your skin. But why does it stay there?
+`,
+`
+`,
+`Scientists have known for a while that tattoos are made possible not by ink-saturated skin cells, but by immune cells called macrophages. These white blood cells exist to gobble up foreign and cellular debris, and they come rushing whenever you’re wounded. So it’s not surprising that they show up when a needle keeps stabbing you and your skin keeps sucking up ink. The macrophages chow down, and their cellular membranes keep your tattoo ink nice and cozy for years to come.
+`,
+`
+`,
+`Now, researchers have answered another question: How the heck do those macrophages stay put for so long? Well, they don’t. According to a study published Tuesday in the Journal of Experimental Medicine, tattoos can persist after macrophages die. When the immune cells wither, they leave behind ink among your skin cells—just as it was when you first got your tattoo. Lo and behold, the new mouse study suggests, new macrophages rush into the fray to pick up the mantles of their fallen brethren.
+`,
+`
+`,
+`In other words, your tattoo isn’t just the remnant of a battle between your proclivity for body art and your immune system. It’s a war that never stops.
+`,
+`The researchers, led by Sandrine Henri and Bernard Malissen of the Centre d'Immunologie de Marseille-Luminy, started out studying naturally occurring pigments in the macrophages of black mice. When the cells that create the rodents’ coloring die, they release dark pigment—and macrophages come to swallow it for safe keeping. Watching the process made them curious about how the process worked with tattoo ink, and they were surprised to see so little research had been done on the subject.`,
+ ] }

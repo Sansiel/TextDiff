@@ -1,0 +1,59 @@
+[ { id: 1, title: 'Lefties, you should feel very special', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.6, length:7500, text: [ `In graduate school, I earned beer money by modeling for life drawing classes in various art departments. (Don’t judge, grad school doesn’t pay well and beer isn’t free.) In the long hours standing around, I would survey the room and count how many of the aspiring artists were left-handed. Later in my career, I did the same thing—counting lefties, not standing around naked—in the biology classes I taught.
+`,
+`
+`,
+`Funny thing: in any given class, around 10 percent of the students were lefties. It turns out this is true for all human populations, not only middle-America university classes. Globally, about 90 percent of people are righties. But why?
+`,
+`
+`,
+`For as long as I can remember, I’ve been fascinated by handedness—our almost ubiquitous tendency to favor one hand over the other—and maybe a little envious of the rare left-handers. Their rareness gave a certain mystique—and they got to use those funky chair-desks with the desktop on the “wrong” side.
+`,
+`
+`,
+`What do we know about the genetics of being right- or left-handed, or even ambidextrous? And how does this help shape our understanding of biology in general?
+`,
+`
+`,
+`What is “handedness” anyway?
+`,
+`Given how fundamental, and obvious, handedness is, we know surprisingly little about its genetics.
+`,
+`
+`,
+`One complication—determining handedness isn’t straightforward. The dominance of your writing (and drawing) hand is a function of at least three things: Genetics to be sure, but also the environment, and, likely, random chance. the environment? Think of the probably-not-apocryphal stories of the Catholic school nuns ruler-rapping the knuckles of anyone so sinister to write with their left hand. (My father-in-law swears these stories are true.)
+`,
+`
+`,
+`In many cultures, the left is associated with evil. There has been, and may continue to be, considerable pressure against maintaining the left hand as the dominant hand.
+`,
+`
+`,
+`Less violently, but no less effectively, there is convenience. Try using a pair of right-handed scissors with your left hand.
+`,
+`
+`,
+`
+`,
+`That didn’t work, did it?
+`,
+`
+`,
+`The fact that scissors, and other assorted manual tools and appliances, from dessert forks to chainsaws, are designed for the righty majority means they’re harder to use lefty, resulting in considerable pressure to conform and use your right hand.
+`,
+`
+`,
+`What does “right-handed” really mean?
+`,
+`This pressure means that many studies that defined handedness by identifying the dominant hand in writing may have miscategorized a substantial portion of the population.
+`,
+`
+`,
+`A solution adopted by many researchers is to assay a suite of behaviours. There are a surprising number of activities that show a dominant hand, including the decidedly adult behaviour that may have just crossed your mind, but also more demure pastimes like sewing or spoon use.
+`,
+`
+`,
+`A twist, which becomes important when we look at the genetics, is that researchers can classify people into one of three groups—right- or left-handed or ambidextrous—or two groups—right-handed and not right-handed.
+`,
+`
+`,
+ ] }

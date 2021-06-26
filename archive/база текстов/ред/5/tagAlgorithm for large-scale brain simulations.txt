@@ -1,0 +1,49 @@
+[ { id: 1, title: 'Algorithm for large-scale brain simulations', source: "https://www.sciencedaily.com/news/computers_math/computer_programming/", difficulty: 2.7, length:7500, text: [ `Previous simulation technology can represent about 1 percent of nerve cells (neurons) in a human brain (dark red area of brain on left) using a petascale supercomputer (bottom left). Only small progress (dark red area of center brain) would be possible on next generation of supercomputers that will exceed the performance of today's high-end supercomputers by 10- to 100-fold. Larger parts of the human brain can be represented with the new technology, using the same amount of computer memory (bottom right).i 10 percent of the brain are approximately the size of the whole cortex (dark red area of brain on right), which is essential for higher processing. A large part of the other neurons are in the cerebellum (blue).
+`,
+`Credit: Forschungszentrum Julich
+`,
+`An international group of researchers has made a decisive step towards creating the technology to achieve simulations of brain-scale networks on future supercomputers of the exascale class. The breakthrough, published in Frontiers in Neuroinformatics, allows larger parts of the human brain to be represented, using the same amount of computer memory. Simultaneously, the new algorithm significantly speeds up brain simulations on existing supercomputers.
+`,
+`
+`,
+`The human brain is an organ of incredible complexity, composed of 100 billion interconnected nerve cells. However, even with the help of the most powerful supercomputers available, it is currently impossible to simulate the exchange of neuronal signals in networks of this size.
+`,
+`
+`,
+`"Since 2014, our software can simulate about one percent of the neurons in the human brain with all their connections," says Markus Diesmann, Director at the Julich Institute of Neuroscience and Medicine (INM-6). In order to achieve this impressive feat, the software requires the entire main memory of petascale supercomputers, such as the K computer in Kobe and JUQUEEN in Julich.
+`,
+`
+`,
+`Diesmann has been working for more than 20 years on the simulation software NEST -- a free, open-source simulation code in widespread use by the neuroscientific community and a core simulator of the European Human Brain Project, in which he leads projects in the areas of Theoretical Neuroscience and on the High-Performance Analytics and Computing Platform.
+`,
+`
+`,
+`With NEST, the behavior of each neuron in the network is represented by a handful of mathematical equations. Future exascale computers, such as the post-K computer planned in Kobe and JUWELS in Julich, will exceed the performance of today's high-end supercomputers by 10- to 100-fold. For the first time, researchers will have the computer power available to simulate neuronal networks on the scale of the human brain.
+`,
+`
+`,
+`Seemingly a dead end
+`,
+`
+`,
+`While current simulation technology enabled researchers to begin studying large neuronal networks, it also represented a dead end on the way to exascale technology. Supercomputers are composed of about 100,000 small computers, called nodes, each equipped with a number of processors doing the actual calculations.
+`,
+`
+`,
+`"Before a neuronal network simulation can take place, neurons and their connections need to be created virtually, which means that they need to be instantiated in the memory of the nodes. During the simulation a neuron does not know on which of the nodes it has target neurons, therefore, its short electric pulses need to be sent to all nodes. Each node then checks which of all these electric pulses are relevant for the virtual neurons that exist on this node," explains Susanne Kunkel of KTH Royal Institute of Technology in Stockholm.
+`,
+`
+`,
+`The current algorithm for network creation is efficient because all nodes construct their particular part of the network at the same time. However sending all electric pulses to all nodes is not suitable for simulations on exascale systems.
+`,
+`
+`,
+`"Checking the relevance of each electric pulse efficiently requires one Bit of information per processor for every neuron in the whole network. For a network of 1 billion neurons, a large part of the memory in each node is consumed by just this single Bit of information per neuron," adds Markus Diesmann.
+`,
+`
+`,
+`This is the main problem when simulating even larger networks: the amount of computer memory required per processor for the extra Bits per neuron increases with the size of the neuronal network. At the scale of the human brain, this would require the memory available to each processor to be 100 times larger than in today's supercomputers. This, however, is unlikely to be the case in the next generation of supercomputers. The number of processors per compute node will increase but the memory per processor and the number of compute nodes will rather stay the same.
+`,
+`
+`,
+ ] }

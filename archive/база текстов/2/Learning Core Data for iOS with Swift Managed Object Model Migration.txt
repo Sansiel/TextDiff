@@ -1,0 +1,12 @@
+Changing a Managed Object Model
+As an application evolves, its managed object model probably needs to change, too. Simple changes, such as attribute defaults, validation rules, and fetch request templates can be modified without consequence. Other more structural changes require that persistent stores be migrated to new model versions. If a persistent store doesn’t have the appropriate mappings and settings required to migrate data from one version to the next, the application throws a “store is incompatible” error.
+
+This error isn’t an issue when an application is in its initial development phase. To get past it, you can just delete the application from the device and run it again from Xcode. When the application is run for the first time after being deleted, the persistent store is created based on the latest model. This makes the store compatible with the model, so the application won’t throw the error anymore. However, it won’t have any old data in it. As such, this scenario is unacceptable for any application already available on the App Store. There are a few approaches to migrating existing persistent stores, and the migration path you choose is driven by the complexity of the changes and whether you’re using iCloud. Whatever you do, you first need to become familiar with model versioning.
+
+Adding a Model Version
+To avoid the error shown in Figure 3.1, you need to create a new model version before making changes to the model. Ongoing, you should not remove old versions of a model. Old model versions are needed to help migrate incompatible persistent stores to the current model version. If there are no existing persistent stores on customer devices, you can ignore model versioning until your application is on the App Store.
+
+The new model Model 2.xcdatamodel starts out as a replica of Model.xcdatamodel. This unfortunately makes it easy to modify the wrong version unintentionally. Before you edit a model, you should triple-check you have selected the correct one. You may want to get into the habit of taking a snapshot, committing to source control, or even backing up the whole project prior to editing a model. Note that the check mark in the green circle represents the current model, which is the model version used at runtime.
+
+Before you can successfully launch the application, you need to configure migration options to tell Core Data how to migrate. Feel free to launch it again to generate the incompatible store error in the meantime.
+

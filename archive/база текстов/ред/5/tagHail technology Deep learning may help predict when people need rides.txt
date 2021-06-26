@@ -1,0 +1,57 @@
+[ { id: 1, title: 'Hail technology Deep learning may help predict when people need rides', source: "https://www.sciencedaily.com/news/computers_math/computer_programming/", difficulty: 2.3, length:7500, text: [ `Computers may better predict taxi and ride sharing service demand, paving the way toward smarter, safer and more sustainable cities, according to an international team of researchers.
+`,
+`
+`,
+`In a study, the researchers used two types of neural networks -- computational systems modeled on the human brain -- that analyzed patterns of taxi demand. This deep learning approach, which lets computers learn on their own, was then able to predict the demand patterns significantly better than current technology.
+`,
+`
+`,
+`"Ride sharing companies, like Uber in the United States, and Didi Chuxing in China, are becoming more and more popular and have really changed the way people approach transportation," said Jessie Li, associate professor of information sciences and technology, Penn State. "And you can imagine how important it would be to predict the taxi demand because the taxi company could dispatch the cars even before the need arises."
+`,
+`
+`,
+`Better predictions could lessen the time taxis idle waiting for rides, making cities cleaner, the researchers added. Because accidents tend to happen more often in congested areas, better ride prediction technology could also improve safety.
+`,
+`
+`,
+`The researchers analyzed a large dataset of ride requests to Didi Chuxing, one of the largest car-hailing companies in China, according to Huaxiu Yao, doctoral student in information sciences and technology and lead author of the paper.
+`,
+`
+`,
+`When users need a ride they first make a request through a computer application -- for example, a mobile phone app. Using these requests for rides, rather than relying solely on ride data, better reflect overall demand, according to the researchers.
+`,
+`
+`,
+`"This is really good data because it's based on demand," said Yao. "If you just know how many people took a ride, that doesn't really tell you the demand because it could be that people didn't get a ride, or others just gave up trying."
+`,
+`
+`,
+`With the historical data, which includes the time and location of the request, the computer can then predict how the demand will change over time. When visualized on the map, the researchers could see that evolving demand.
+`,
+`
+`,
+`"In the morning, for example, you can see that in a residential section there are more pickups, and there are more drop-offs in the downtown area," said Li. "In the evening, it's reversed. What we are doing is using historical pickup data to predict how this map changes 30 minutes from now, one hour from now, and so on."
+`,
+`
+`,
+`The researchers, who presented their findings at the recent AAAI Conference on Artificial Intelligence, one of the biggest conferences in the AI research field, used data on taxi requests in Guangzhou, China, from Feb. 1 to March 26, 2017. Guangzhou residents make about 300,000 ride requests each day. By comparison, there are about 500,000 rides per day in New York City.
+`,
+`
+`,
+`While technology uses one type of neural network, the researchers combined two neural networks -- the convolutional neural network, or CNN, and Long Short Term Memory network, or LSTM -- to help guide the complex sequences of predictions. CNNs can better model complex spatial correlations and LSTMs can better handle sequential modeling.
+`,
+`
+`,
+`"Basically, we used a very complicated neural net to simulate how people digest information, in this case, the image of the traffic patterns," said Li.
+`,
+`
+`,
+`Li said access to larger data sets -- Big Data -- and advances in computer technology that can process this large amount of data have helped this project and enabled other deep learning developments.
+`,
+`
+`,
+`"In traditional computer programming, people need to tell the computer what aspects -- or features -- it needs to look at and then they have to model it, which takes a huge effort," said Li. "Why deep learning is revolutionary is now we can skip that step. You can just give the computer the images, for example. You don't need to tell the computer what it needs to look at."
+`,
+`
+`,
+ ] }

@@ -1,0 +1,34 @@
+You have now seen all the basic tools for object-oriented programming in Java. This chapter shows you several advanced techniques that are commonly used. Despite their less obvious nature, you will need to master them to complete your Java tool chest.
+
+The first technique, called interfaces, is a way of describing what classes should do, without specifying how they should do it. A class can implement one or more interfaces. You can then use objects of these implementing classes whenever conformance to the interface is required. After we cover interfaces, we move on to lambda expressions, a concise way for expressing a block of code that can be executed at a later point in time. Using lambda expressions, you can express code that uses callbacks or variable behavior in an elegant and concise fashion.
+
+We then discuss the mechanism of inner classes. Inner classes are technically somewhat complex—they are defined inside other classes, and their methods can access the fields of the surrounding class. Inner classes are useful when you design collections of cooperating classes.
+
+This chapter concludes with a discussion of proxies, objects that implement arbitrary interfaces. A proxy is a very specialized construct that is useful for building system-level tools. You can safely skip that section on first reading.
+
+6.1 Interfaces
+In the following sections, you will learn what Java interfaces are and how to use them. You will also find out how interfaces have been made more powerful in Java SE 8.
+
+6.1.1 The Interface Concept
+In the Java programming language, an interface is not a class but a set of requirements for the classes that want to conform to the interface.
+
+Typically, the supplier of some service states: “If your class conforms to a particular interface, then I’ll perform the service.” Let’s look at a concrete example. The sort method of the Arrays class promises to sort an array of objects, but under one condition: The objects must belong to classes that implement the Comparable interface.
+This means that any class that implements the Comparable interface is required to have a compareTo method, and the method must take an Object parameter and return an integer.All methods of an interface are automatically public. For that reason, it is not necessary to supply the keyword public when declaring a method in an interface.
+
+Of course, there is an additional requirement that the interface cannot spell out: When calling x.compareTo(y), the compareTo method must actually be able to compare the two objects and return an indication whether x or y is larger. The method is supposed to return a negative number if x is smaller than y, zero if they are equal, and a positive number otherwise.
+
+This particular interface has a single method. Some interfaces have multiple methods. As you will see later, interfaces can also define constants. What is more important, however, is what interfaces cannot supply. Interfaces never have instance fields. Before Java SE 8, methods were never implemented in interfaces. (As you will see in Section 6.1.4, “Static Methods,” on p. 298 and Section 6.1.5, “Default Methods,” on p. 298, it is now possible to supply simple methods in interfaces. Of course, those methods cannot refer to instance fields—interfaces don’t have any.)
+
+Supplying instance fields and methods that operate on them is the job of the classes that implement the interface. You can think of an interface as being similar to an abstract class with no instance fields. However, there are some differences between these two concepts—we look at them later in some detail.
+
+Now suppose we want to use the sort method of the Arrays class to sort an array of Employee objects. Then the Employee class must implement the Comparable interface.
+
+To make a class implement an interface, you carry out two steps:
+
+1)You declare that your class intends to implement the given interface.
+2)You supply definitions for all methods in the interface.
+Of course, now the Employee class needs to supply the compareTo method. Let’s suppose that we want to compare employees by their salary.
+Here, we use the static Double.compare method that returns a negative if the first argument is less than the second argument, 0 if they are equal, and a positive value otherwise.
+
+
+

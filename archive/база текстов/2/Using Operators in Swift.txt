@@ -1,0 +1,11 @@
+Operators are a key ingredient to every app. In fact, it’s difficult to write an app—other than the standard “Hello, world!” example—that doesn’t contain at least one operator. Operators are symbols or a set of symbols that change or assign values, combine values, or check or verify values in your code. In this hour, we learn about most of the basic operators in Swift and understand why and how to use them.
+
+All operators in Swift can be categorized as unary, binary, or ternary. Unary operators perform an action upon a single operand, binary operators perform an action upon two operands, and ternary operators perform an action involving three operands.
+
+Unary Operators
+A unary operator operates on a single value. A unary operator can be prefix or postfix, meaning that it can come before a variable or constant (prefix, such as ++count), or immediately follow a variable or constant (postfix, such as count++). Some unary operators can be either (prefix or postfix), while some can be only one or the other. A unary operator cannot have any whitespace between itself and the variable or constant. Unary operators act upon numeric and Boolean types in Swift. Let’s take a look at Swift’s unary operators.
+
+Increment and Decrement Operators
+Two similar operators are the increment operator and the decrement operator. The increment operator, denoted by ++, increases a numeric value by 1, and the decrement operator, denoted by --, decreases a numeric value by 1. The increment operator is short-hand for a longer expression; a++ is the same as a = a + 1, and a-- is the same as a = a - 1. Both the increment and decrement operators can be prefix or postfix.
+
+There is a key difference in behavior, however, between the increment and decrement operators concerning prefix and postfix. That is the order in which the value is incremented or decremented and when assignment occurs. A prefixed decrement operator decrements the numeric value by 1 and returns the newly assigned value. Likewise, a prefixed increment operator increments the numeric value by 1 and returns the newly assigned value. The postfixed decrement operator first returns the numeric value before decrementing; likewise, the postfixed increment operator returns the numeric value before incrementing. Take a look at the following code example to see this behavior in action

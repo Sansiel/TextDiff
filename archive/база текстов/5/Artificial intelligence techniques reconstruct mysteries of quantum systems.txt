@@ -1,0 +1,24 @@
+The same techniques used to train self-driving cars and chess-playing computers are now helping physicists explore the complexities of the quantum world.
+
+For the first time, physicists have demonstrated that machine learning can reconstruct a quantum system based on relatively few experimental measurements. This method will allow scientists to thoroughly probe systems of particles exponentially faster than conventional, brute-force techniques. Complex systems that would require thousands of years to reconstruct with previous methods could be wholly analyzed in a matter of hours.
+
+The research will benefit the development of quantum computers and other applications of quantum mechanics, the researchers report February 26 in Nature Physics.
+
+"We have shown that machine intelligence can capture the essence of a quantum system in a compact way," says study co-author Giuseppe Carleo, an associate research scientist at the Center for Computational Quantum Physics at the Flatiron Institute in New York City. "We can now effectively extend the capabilities of experiments."
+
+Carleo, who conducted the research while a lecturer at ETH Zurich, was inspired by AlphaGo. This computer program used machine learning to outplay the world champion of the Chinese board game Go in 2016. "AlphaGo was really impressive," he says, "so we started asking ourselves how we could use those ideas in quantum physics."
+
+Systems of particles such as electrons can exist in lots of different configurations, each with a particular probability of occurring. Each electron, for instance, can have either an upward or downward spin, similar to Schrodinger's cat being either dead or alive in the famous thought experiment. In the quantum realm, unobserved systems don't exist as any one of these arrangements. Instead, the system may be thought of as being is in all possible configurations simultaneously.
+
+When measured, the system collapses into one configuration, just like Schrodinger's cat is either dead or alive once you open its box. This quirk of quantum mechanics means that you can never observe the entire complexity of a system in a single experiment. Instead, experimentalists conduct the same measurements over and over until they can determine the state of the whole system.
+
+That method works well for simple systems containing only a few particles. But "things get nasty with a lot of particles," Carleo says. As the number of particles increases, the complexity skyrockets. If only considering that each electron can have either spin up or down, a system of five electrons has 32 possible configurations. A system of 100 electrons has more than 1 million trillion trillion.
+
+The entanglement of particles further complicates matters. Through quantum entanglement, independent particles become intertwined and can no longer be treated as purely separate entities even when physically separated. This entanglement alters the probability of different configurations.
+
+Conventional methods, therefore, just aren't feasible for complex quantum systems.
+
+Giacomo Torlai of the University of Waterloo and the Perimeter Institute in Canada, Carleo and colleagues circumvented these limitations by tapping machine learning techniques. The researchers fed experimental measurements of a quantum system to a software tool based on artificial neural networks. The software learns over time and attempts to mimic the system's behavior. Once the software ingests enough data, it can accurately reconstruct the complete quantum system.
+
+The researchers tested the software using mock experimental datasets based on different sample quantum systems. In these tests, the software far surpassed conventional methods. For eight electrons, each with spin up or down, the software could accurately reconstruct the system with only around 100 measurements. For comparison, a conventional brute-force method required almost 1 million measurements to reach the same level of accuracy. The new technique can also handle much larger systems. In turn, this ability can help scientists validate that a quantum computer is correctly set up and that any quantum software would run as intended, the researchers suggest.
+

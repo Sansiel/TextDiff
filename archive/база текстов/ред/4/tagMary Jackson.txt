@@ -1,0 +1,41 @@
+[ { id: 1, title: 'Mary Jackson', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 2.5, length:7500, text: [ `Mathematician Mary Jackson was one of a small group of African-American women who worked as aeronautical engineers, called "human computers," at NASA during the Space Age.
+`,
+`Who Was Mary Jackson?
+`,
+`Born in Virginia in 1921, Mary Winston Jackson excelled academically in a time of racial segregation. Her math and science skills earned her a position as a "human computer" for NACA, and she later became NASA's first black female engineer. Along with serving a vital role in the development of the space program, she helped other women and minorities advance their careers. Jackson died in February 2005 at the age of 83. The story of her groundbreaking contributions to NASA was later dramatized in the 2016 film Hidden Figures.
+`,
+`
+`,
+`Early Years
+`,
+`Mary Winston Jackson was born on April 9, 1921, in Hampton, Virginia, the daughter of Ella and Frank Winston. She attended Hampton’s all-black schools and graduated with high honors from George P. Phenix Training School in 1937. Five years later, she earned dual bachelor’s degrees in mathematics and physical science from Hampton Institute.
+`,
+`
+`,
+`Taking her Talents to Work
+`,
+`After college, Mary Jackson took on a series of jobs, including teacher, bookkeeper and receptionist. Then in 1951, she found employment at the National Advisory Committee for Aeronautics (NACA, the predecessor agency to NASA) in Langley, Virginia. She worked at the West Computers section as a research mathematician—known at the time as a "human computer." In 1953, she moved to the Compressibility Research Division of NACA.
+`,
+`
+`,
+`
+`,
+`Working through Segregation
+`,
+`Though President Franklin D. Roosevelt’s Executive Order 8802 prohibited discrimination in the defense industry, Virginia state law still enforced segregation in the workplace. All work facilities had separate restrooms and cafeterias designated “white” or “colored.” In the company cafeteria, whites could select their food choices and sit in a lunch room. Blacks had to make their food requests to a cafeteria attendant and then go back to their desks and eat, an experience Jackson considered an indignity.
+`,
+`
+`,
+`NASA's First Black Female Engineer
+`,
+`After several months of “separate and unequal” accommodations, Mary Jackson had had enough. She considered resigning, but a chance encounter with a supervisor changed her mind. After hearing her complaints, he invited her to work for him and she accepted. He quickly saw her potential and encouraged her to take engineering classes. In time, she was promoted to aeronautical engineer, making her NASA's first black female engineer, and developed expertise working with wind tunnels and analyzing data on aircraft flight experiments.
+`,
+`
+`,
+`
+`,
+`Giving Back by Helping Others
+`,
+`By 1978, Jackson changed positions to be a human resources administrator. She served as both the Federal Women’s Program Manager in the Office of Equal Opportunity Programs and as the Affirmative Action Program Manager. From then until her retirement in 1985, she helped other women and minorities advance their careers, advising them to study and take extra courses to increase their chances for promotion.
+`,
+ ] }

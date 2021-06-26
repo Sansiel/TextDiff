@@ -1,0 +1,43 @@
+[ { id: 1, title: 'The Swift Developer's Cookbook Optionals!', source: "https://www.informit.com/articles/index.aspx?st=60206", difficulty: 3.1, length:7500, text: [ `When dictionary lookups fail, when instance properties are case dependent, when asynchronous operations have not completed, when failable initializers cannot create instances, and in dozens of other situations where values may or may not have been set, Swift may return nil instead of some other more concrete content. Swift provides nil as a powerful tool for expressing situations in which values are unavailable for use.
+`,
+`
+`,
+`Swift differentiates these “no content” scenarios from error handling. In error handling, control flow changes to offer failure mitigation and reporting. With nil, a value-of-no-value represents an absence of data. It offers a testable placeholder to be used when no data is otherwise available.
+`,
+`
+`,
+`Unlike in many other languages, in Swift, nil is not a pointer. It is a safe and expressive way to represent the potential for both a valid and invalid value within a single construct. In Swift, the Optional type encapsulates this concept and enables you to differentiate between successful value assignments and nil cases.
+`,
+`
+`,
+`Learning how to recognize and use optionals is an essential step in mastering the Swift language. This chapter introduces optionals and surveys the supporting constructs you need to create, test, and successfully use optionals in your code.
+`,
+`
+`,
+`Optionals 101
+`,
+`Question marks and exclamation points are the hallmark of Swift optionals. Any variable marked with ? may—or may not—contain a valid value. To get a sense of this language feature, consider the following example:
+`,
+`
+`,
+`What does the fox say? In Swift, the answer is nil. In Swift, nil indicates “no value.” Unlike in Objective-C, in Swift, nil is not a pointer. Swift nil indicates a semantic missing non-existence, a count of Monte Cristo, a cup of “not tea,” an honest politician. A nil item means “nothing to see here, move along, move along, move along.”
+`,
+`
+`,
+`In this soundDictionary example, the variable stores a string dictionary. With strings for both keys and values, its type is Swift.Dictionary<Swift.String, Swift.String>. You can also represent this type as [String: String], using square brackets and a colon. Swift infers this type from the concrete data provided on the right-hand side of the soundDictionary assignment. Alternatively, you can use explicit type annotation in your code by adding a colon and a type in the variable declaration:
+`,
+`
+`,
+`Although the dictionary uses String keys and values, when you look up any item in this dictionary, the value returned is not a String. It’s typed String?. That question mark is critical to understanding dictionaries because it indicates an Optional type. Dictionary lookups may succeed or fail. Optional return types encapsulate both possibilities.
+`,
+`
+`,
+`Contrast this behavior with arrays, where it’s the programmer’s job to check whether an index exists before accessing it. Both types could easily be implemented with the other convention, of course, but the Swift people chose the more likely use case for each type. Arrays are highly bounded with a small domain of legal lookup indexes. Dictionaries are often sparse compared against their possible key domain. Optionals enables dictionaries to better represent their “may or may not map to a value” results.
+`,
+`
+`,
+`Confirm the return type with Quick Help. Enter the dictionary and the following assignment in Xcode. Then Option-click the sound symbol (as in Figure 3-1) or select the symbol and open View > Utilities > Show Quick Help Inspector. The declaration line in the Quick Help presentation confirms that the type assigned to sound is String?:
+`,
+`
+`,
+ ] }

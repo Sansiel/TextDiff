@@ -1,0 +1,81 @@
+[ { id: 1, title: 'AI tool promotes positive peer groups to tackle substance abuse', source: "https://www.sciencedaily.com/news/computers_math/computer_programming/", difficulty: 2.9, length:7500, text: [ `When it comes to fighting substance abuse, research suggests the company you keep can make the difference between recovery and relapse. So, while group intervention programs can play an important role in preventing substance abuse, especially in at-risk populations such as homeless youth, they can also inadvertently expose participants to negative behaviors.
+`,
+`
+`,
+`Now, researchers from the USC Center for Artificial Intelligence in Society have created an algorithm that sorts intervention program participants -- who are voluntarily working on recovery -- into smaller groups, or subgroups, in a way that maintains helpful social connections and breaks social connections that could be detrimental to recovery.
+`,
+`
+`,
+`"We know that substance abuse is highly affected by social influence; in other words, who you are friends with," says Aida Rahmattalabi, a USC computer science graduate student and lead author of the study.
+`,
+`
+`,
+`"In order to improve effectiveness of interventions, you need to know how people will influence each other in a group."
+`,
+`
+`,
+`Rahmattalabi and colleagues from USC Viterbi School of Engineering, USC Suzanne Dworak-Peck School of Social Work and the University of Denver worked in collaboration with Urban Peak, a Denver-based non-profit serving homeless youth, to develop the decision aid, which they hope will assist interventionists in substance abuse prevention.
+`,
+`
+`,
+`Results showed the algorithm performed significantly better than control strategies for forming groups. The study, called Influence Maximization for Social Network Based Substance Abuse Prevention, was published in the AAAI conference on Artificial Intelligence student abstract section.
+`,
+`
+`,
+`Co-authors of the study were USC's Phebe Vayanos, assistant professor of industrial and systems engineering and computer science, Milind Tambe, the Helen N. and Emmett H. Jones Professor in Engineering and professor of computer science and industrial and systems engineering, and Eric Rice, associate professor in social work; Anamika Barman Adhikari from the University of Denver; and Robin Baker from Urban Peak.
+`,
+`
+`,
+`Power of peer influence
+`,
+`
+`,
+`Every year, up to two million youth in the U.S. will experience homelessness, and estimates suggest between 39 and 70 percent of homeless youth abuse drugs or alcohol.
+`,
+`
+`,
+`Substance abuse initiatives such as group therapy can offer support by encouraging homeless youth to share their experiences, learn positive coping strategies, and build healthy social networks.
+`,
+`
+`,
+`But if these groups are not properly structured, they can exacerbate the problems they intend to treat by encouraging the formation of friendships based on antisocial behavior. This is a process known in social work as "deviancy training," when peers reinforce each other for deviant behavior.
+`,
+`
+`,
+`The team tackled this problem from an artificial intelligence perspective, creating an algorithm that takes into account both how the individuals in a subgroup are connected -- their social ties -- and their prior history of substance abuse.
+`,
+`
+`,
+`Survey data gathered voluntarily from homeless youth in Los Angeles, as well as behavioral theories and observations of previous interventions, were used to build a computational model of the interventions.
+`,
+`
+`,
+`"Based on this we have an influence model that explains how likely it is for an individual to adopt negative behaviors or change negative behaviors based on their participation in the group," says Rahmattalabi.
+`,
+`
+`,
+`"This helps us predict what happens when we group people into smaller groups."
+`,
+`
+`,
+`Perhaps the most surprising finding was that, contrary to common intuition, evenly distributing regular substance users across the subgroups is not the optimal way to design a successful intervention.
+`,
+`
+`,
+`"Uniform distribution of users while ignoring their existing relationships can greatly decrease the success rate of these interventions," says Rahmattalabi.
+`,
+`
+`,
+`In addition, the analysis suggests that sometimes conducting the intervention could actually have a detrimental on the group.
+`,
+`
+`,
+`"In some cases, we found it's actually a bad idea to conduct the intervention: for example, if you have many high-risk people in a group, it is better to not connect them with low-risk individuals," says Rahmattalabi.
+`,
+`
+`,
+`As new data is added to the algorithm, the researchers hope it will adapt to changing conditions, revealing how social networks evolve during the course of the intervention program. This could allow interventionists to determine how an intervention will shape participant outcomes. The researchers are continuing to work with Urban Peak, and plan to deploy the tool to optimize intervention group strategies for homeless youth in Denver in fall 2018.
+`,
+`
+`,
+ ] }

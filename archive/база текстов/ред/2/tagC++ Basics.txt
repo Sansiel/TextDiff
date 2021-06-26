@@ -1,0 +1,25 @@
+[ { id: 1, title: 'C++ Basics', source: "https://www.informit.com/articles/index.aspx?st=60206", difficulty: 2.4, length:7500, text: [ `In this first chapter, we will guide you through the fundamental features of C++. As for the entire book, we will look at it from different angles but we will not try to expose every possible detail—which is not feasible anyway. For more detailed questions on specific features
+`,
+`
+`,
+`1.1 Our First Program
+`,
+`Before you continue reading, we strongly recommend that you compile and run this little program on your computer. Once it compiles and runs, you can play a little bit with it, for example, adding more operations and output (and looking at some error messages). Finally, the only way to really learn a language is to use it. If you already know how to use a compiler or even a C++ IDE, you can skip the remainder of this section.
+`,
+`
+`,
+`If you are running MinGW, you can compile in the same manner as under Linux. If you use Visual Studio, you will need to create a project first. To begin, the easiest way is to use the project template for a console application, as described, for instance, at http://www.cplusplus.com/doc/tutorial/introduction/visualstudio. When you run the program, you have a few milliseconds to read the output before the console closes. To extend the reading phase to a second, simply insert the non-portable command Sleep(1000); and include <windows.h>. With C++11 or higher, the waiting phase can be implemented portably
+`,
+`after including <chrono> and <thread>. Microsoft offers free versions of Visual Studio called “Express” which provide the support for the standard language like their professional counterparts. The difference is that the professional editions come with more developer libraries. Since those are not used in this book, you can use the “Express” version to try our examples.
+`,
+`
+`,
+`IDE: Short programs like the examples in this book can be easily handled with an ordinary editor. In larger projects it is advisable to use an Integrated Development Environment to see where a function is defined or used, to show the in-code documentation, to search or replace names project-wide, et cetera. KDevelop is a free IDE from the KDE community written in C++. It is probably the most efficient IDE on Linux and integrates well with git and CMake. Eclipse is developed in Java and perceivably slower. However, a lot of effort was recently put into it for improving the C++ support, and many developers are quite productive with it. Visual Studio is a very solid IDE that comes with some unique features such as a miniaturized colored page view as scroll bar.
+`,
+`
+`,
+`To find the most productive environment takes some time and experimentation and is of course subject to personal and collaborative taste. As such, it will also evolve over time.
+`,
+`
+`,
+ ] }

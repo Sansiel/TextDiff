@@ -1,0 +1,37 @@
+[ { id: 1, title: 'Jane Goodall', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 3.1, length:7500, text: [ `Jane Goodall is known for her years of living among chimpanzees in Tanzania to create one of the most trailblazing studies of primates in modern times.
+`,
+`Who Is Jane Goodall?
+`,
+`Born on April 3, 1934, in London, England, Jane Goodall set out to Tanzania in 1960 to study wild chimpanzees. She immersed herself in their lives, bypassing more rigid procedures to make discoveries about primate behavior that have continued to shape scientific discourse. A highly respected member of the world scientific community, she advocates for ecological preservation through the Jane Goodall Institute.
+`,
+`
+`,
+`Jane Goodall Movies
+`,
+`The general public was introduced to Jane Goodall's life work via Miss Goodall and the Wild Chimpanzees, first broadcast on American television on December 22, 1965. Filmed by her first husband, and narrated by Orson Welles, the documentary showed the shy but determined young English women patiently watching these animals in their natural habitat, and the chimpanzees soon became a staple of American and British public television. Through these programs, Goodall challenged scientists to redefine the long-held "differences" between humans and other primates.
+`,
+`
+`,
+`In 2017, additional footage from the Miss Goodall shooting was pieced together for Jane, a documentary that included recent interviews with the famed activist to create a more encompassing narrative of her experiences with the chimps. 
+`,
+`
+`,
+`
+`,
+`Jane Goodall Institute
+`,
+`Many of Goodall's endeavors are conducted under the auspices of the Jane Goodall Institute for Wildlife Research, Education and Conservation, a nonprofit organization that promotes the protection of chimpanzees and strong environmental practices. Founded in 1977, the organization is based in Virginia but boasts some two dozen offices around the world.Observing Chimps in Africa
+`,
+`In July 1960, accompanied by her mother and an African cook, Jane Goodall arrived on the shore of Lake Tanganyika in the Gombe Stream Reserve of Tanzania, Africa, with the goal of studying chimpanzees. 
+`,
+`
+`,
+`Goodhall's first attempts to closely observe the animals failed; she could get no nearer than 500 yards before the chimps fled. After finding another suitable group to follow, she established a nonthreatening pattern of observation, appearing at the same time every morning on the high ground near a feeding area along the Kakombe Valley. 
+`,
+`
+`,
+`The chimpanzees soon tolerated her presence and, within a year, allowed her to move as close as 30 feet to their feeding area. After two years of seeing her every day, they showed no fear and often came to her in search of bananas.
+`,
+`
+`,
+ ] }

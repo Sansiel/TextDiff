@@ -1,0 +1,24 @@
+Evidence suggests that the interface between humans and technology will only become more central to modern life.
+
+For humans to be able to extract meaningful information from the troves of data being collected by the 'smart' machines with which we interact -- such as mobile phones -- computers need to be able process language like humans. The branch of artificial intelligence that addresses this need is called natural language processing.
+
+A paper called 'Algorithms in the historical emergence of word senses' -- that appears online today in the Proceedings of the National Academy of Sciences (PNAS) -- is the first to look at 1,000 years of English development and detect the kinds of algorithms that human minds have used to extend existing words to new senses of meaning. This kind of 'reverse engineering' of how human language has developed could have implications for natural language processing by machines.
+
+'To communicate successfully with humans, computers need to be able to use words flexibly but following the same principles that guide the use of language by humans,' explains Barbara Malt, Director of the Cognitive Science Program at Lehigh University and one the project collaborators.
+
+According to Malt, words accumulate families of related senses over the course of history. For instance, the word 'face' originally meant the front part of a head, but over time it also came to mean the front part of other objects, such as the 'face' of the cliff, and an emotional state, such as putting on a brave 'face.'
+
+'This work,' says Malt, 'was aimed at investigating the cognitive processes that create these families of senses.'
+
+The team -- including lead researcher Yang Xu, a computational linguist from the University of Toronto and Mahesh Srinivasan, assistant professor of psychology at the University of California Berkeley, along with Berkeley student Christian Ramiro -- identified an algorithm called 'nearest-neighbor chaining' as the mechanism that best describes how word senses accumulate over time.
+
+In 'nearest-neighbor chaining' points of input are analyzed as a hierarchy of clusters. The researchers' model captured the chaining process that occurs as emerging ideas were expressed using the word with the most closely related existing sense. This chaining model fit the historical pattern of sense emergence better than alternative models.
+
+'It is an open question how the algorithms we explored here can be directly applied to improving machine understanding of novel language use,' says Xu.
+
+After developing the computational algorithms that predicted the historical order in which the senses of a word have emerged, the team tested these predictions against records of English over the past millennium using the Historical Thesaurus of English, a large database in which each of a word's many senses is marked for its date of emergence into the language.
+
+Their findings suggest that word senses emerge in ways that minimize cognitive costs, which are the collective costs of generating, interpreting and learning word senses. In other words, new word senses emerge through an efficient mechanism that expresses new ideas via a compact set of words.
+
+'When emerging ideas are encoded in English, they are more likely to be encoded via extending the meaning of an existing word than through creation of a new word,' says Malt. 'A popular idea may be that when you have a new idea you need to make up a new word for it, but we found this strategy is actually less common.'
+

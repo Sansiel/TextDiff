@@ -1,0 +1,89 @@
+[ { id: 1, title: 'Some of your favorite products have absurd medicinal histories', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.9, length:7500, text: [ `Before they were staples in your fridge or household supply cabinet, many ordinary products were used in extraordinary (and often totally absurd) medical contexts.
+`,
+`
+`,
+`
+`,
+`
+`,
+`The most popular example is Coca-Cola, which was first brewed on March 29, 1886 by Georgia-based pharmacist John Stith Pemberton. The sugary soda was originally marketed as a “nerve tonic.” Ads from the 19th century promote the drink, which contained a few milligrams of cocaine per glass, as a way to increase intelligence, relieve exhaustion, and cope with emotions like hysteria and melancholy. Pemberton himself became interested in brewing the drink as a way to manage his morphine addiction, from which many Civil War veterans suffered.
+`,
+`
+`,
+`But Coca-Cola is hardly the only soda, let alone the only popular American product, to have such a strange backstory. Here are six other mini-medical histories—and one dispatch from the future.
+`,
+`
+`,
+`
+`,
+`Every other soda was “nerve tonic,” too
+`,
+`Coca-Cola may be the most prominent pseudo-medicinal soda, but it’s actually in great company. The soft drink 7-Up was once marketed as a mood stabilizer. Originally called Bib-Label Lithiated Lemon-Lime Soda, until 1950 the drink contained lithium citrate, a chemical compound used to manage bipolar disorder. Other carbonated beverages were promoted similarly, which explains a lot about why soda fountains were installed inside local pharmacies.
+`,
+`
+`,
+`
+`,
+`
+`,
+`
+`,
+`Lysol was... birth control?
+`,
+`Lysol is an incredibly acidic cleaning product. Even if you’re using it properly—on hard surfaces like kitchen countertops or toilet seat lids—it’s probably still reddened your hand or irritated your skin on occasion. So imagine using it… on your genitals.
+`,
+`
+`,
+`And yet, that’s exactly what many women did before the U.S. legalized birth control for all in 1972. In 2013, historian Andrea Tone argued that “feminine hygiene,” a widely touted benefit of the cleaning supply, was a euphemism for birth control. That’s right: Lysol was, for many years, branded its product as a way to kill sperm. And it probably worked! Unfortunately, the solution was just as caustic on your lady parts. Mother Jones reports that by 1911, doctors had recorded at least five fatalities due to “uterine irrigation.”
+`,
+`
+`,
+`
+`,
+`Graham Crackers were a purity snack
+`,
+`Known as a “dietary reformer,” Sylvester Graham eschewed many of the world’s greatest treats. He abhorred alcohol and became one of the early proponents of a vegetarian diet in the United States. But his beliefs, which became known as “Grahamism,” reached their zenith in his promotion of unsifted wheat flour.
+`,
+`
+`,
+`Graham believed that plain flours and other bland foods would reduce excitement within the body, thereby allowing people to maintain purity of mind and flesh. Graham crackers, made of that unsifted wheat, were promoted as a way for parents to keep their kids healthy—and, you know, too chill to masturbate.
+`,
+`
+`,
+`
+`,
+`
+`,
+`
+`,
+`Fig Newtons were a digestive aid
+`,
+`Fig Newtons were originally promoted as a digestive aid. In 1891, when the little cookies made their debut, it was thought that a daily snack of fruit and biscuits was what really kept the doctor away. Even today, Fig Newtons are promoted as a healthier snack option—“with real fruit!” the boxes say—but for what it’s worth, each cookie has only one gram of fiber, which is a half gram less than you'll get from a single, unprocessed fig.
+`,
+`
+`,
+`
+`,
+`Kotex pads were World War I-era bandages
+`,
+`Today, the brand Kotex is synonymous with menstrual pads. But back in 1914, this material staunched a different kind of bleeding. Cellucotton, as the processed wood was once known, is five times as absorbent as cotton at half the cost. This made it at a favorite among army doctors during World War I.
+`,
+`
+`,
+`With peace restored, the Kimberly-Clark paper company needed to find a way to keep the Cellucotton train running. They decided to pivot from bandages to sanitary napkins. Given most women were simply relying on cloth rags until that point, Kotex, as the product would come to be known, was a hit with the ladies—and remains so today.
+`,
+`
+`,
+`
+`,
+`Gin and tonic prevented malaria
+`,
+`Malaria is a pretty terrible disease. Caused by a small parasite delivered by an infected mosquito, it causes fever, chills, and sometimes death. As the British empire sent its emissaries out to conquer the world, the potential perils of malaria were naturally top of mind. Fortunately, by the turn of the 19th century, people had figured out that quinine protected against the infection.
+`,
+`
+`,
+`But there was one problem: Quinine, which is derived from cinchona bark, tastes really gross. So the Brits started mixing it with soda and sugar, which is how we got tonic water. Eventually, the colonists got even more clever about their spoonful of sugar, mixing the sweetened medicine with gin and a little lime. And that’s how homemade medicine gave us Jay Gatsby’s favorite drink: the gin and tonic.
+`,
+`
+`,
+ ] }

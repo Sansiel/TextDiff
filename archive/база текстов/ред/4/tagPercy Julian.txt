@@ -1,0 +1,39 @@
+[ { id: 1, title: 'Percy Julian', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 3.1, length:7500, text: [ `African-American chemist Percy Julian was a pioneer in the chemical synthesis of medicinal drugs such as cortisone, steroids and birth control pills.
+`,
+`Who Was Percy Julian?
+`,
+`Born in Alabama in 1899, pioneering chemist Percy Julian was not allowed to attend high school but went on to earn his Ph.D. His research at academic and corporate institutions led to the chemical synthesis of drugs to treat glaucoma and arthritis, and although his race presented challenges at every turn, he is regarded as one of the most influential chemists in American history.
+`,
+`
+`,
+`Early Life
+`,
+`Percy Lavon Julian was born April 11, 1899, in Montgomery, Alabama, the grandson of former slaves. He attended school through the eighth grade but there were no high schools open to black students. He applied to DePauw University in Greencastle, Indiana, where he had to take high school-level classes in the evening to get him up to the academic level of his peers. In spite of this challenging beginning, he graduated first in his class, with Phi Beta Kappa honors.
+`,
+`
+`,
+`Life in Academia
+`,
+`After college, Julian accepted a position as a chemistry instructor at Fisk University. He left in 1923 when he received a scholarship to attend Harvard University to finish his master’s degree, though the university would not allow him to pursue his doctorate. He traveled for several years, teaching at black colleges, before obtaining his Ph.D. at the University of Vienna in Austria in 1931.
+`,
+`
+`,
+`With his doctorate in hand, he returned to DePauw to continue his research. In 1935 he earned international acclaim by synthesizing physostigmine from the calabar bean to create a drug treatment for glaucoma, but in spite of his success, the university refused to make him a full professor because of his race.
+`,
+`
+`,
+`Later Career
+`,
+`Desiring to leave academia, Julian applied for jobs at prominent chemical companies, but was repeatedly rejected when hiring managers discovered that he was black. Ultimately, he obtained a position at Glidden Company as the lab director. There he invented Aero-Foam, a product that uses soy protein to put out oil and gas fires and was widely used in World War II, as well as other soybean-based inventions.
+`,
+`
+`,
+`Julian continued his biomedical work as well, and discovered how to extract sterols from soybean oil and synthesize the hormones progesterone and testosterone. He was also lauded for his synthesis of cortisone, which became used in the treatment of rheumatoid arthritis.
+`,
+`
+`,
+`Julian left Glidden in 1953 and established his own laboratory, Julian Laboratories, in 1954. He sold the company in 1961, becoming one of the first black millionaires, before founding Julian Research Institute, a nonprofit organization that he ran for the rest of his life.
+`,
+`
+`,
+ ] }

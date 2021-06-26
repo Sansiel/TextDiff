@@ -1,0 +1,40 @@
+Let's imagine that you and I started a business manufacturing and selling network interface cards (NICs). Industry standards would be pretty important to us, right? How could we make it easier for our Ethernet NICs to work natively with systems based on, say, Windows, Linux, and OS X? What about compatibility with different network architectures, protocols, and client/server applications? (Whoa—I'm glad we don't really need to worry about that particular set of problems!)
+
+Windows systems administrators rely on several Distributed Management Task Force (DMTF) industry standards to make our lives easier. The DMTF is an industry consortium whose membership includes major computer hardware and software manufacturers. Their goal is to agree on standards so their products work together as seamlessly as possible.
+
+In this article, we'll look at how to apply a couple of key DMTF standards to help us be more effective with Windows PowerShell–based systems administration.
+
+Understanding the Relationship Between CIM and WMI
+The Common Information Model (CIM, pronounced sim) is a DMTF specification that describes computer hardware and software components. CIM is part of a larger systems-management framework called Web-Based Enterprise Management (WBEM).
+
+Every Windows server or client computer has a local CIM repository. As systems administrators, we can tap into that CIM repository to fetch and set properties and take action on the repository data.
+
+Although it's a long-time DMTF member, a while back Microsoft made the ill-advised decision to write its own abstraction layer on top of CIM, called Windows Management Instrumentation (WMI).
+
+What's confusing to many admins is that in Windows PowerShell v3 and later we can access the CIM repository by using either WMI or CIM calls. One of my goals in this article is to show you the pros and cons of each approach.
+
+Let's begin by running through a simple example to help us visualize the CIM repository. At the moment I'm running a Windows 8.1 computer on which I've installed the free and open-source WMI Explorer desktop application. Figure 1 shows an annotated user interface.
+
+
+	
+Figure 1 WMI Explorer.
+
+We start using WMI Explorer by clicking Connect to load the current computer's CIM repository (annotation A in Figure 1). The namespace is the highest level in the CIM hierarchy. In my experience, we use ROOT\CIMV2 almost exclusively for Windows systems management. When we double-click ROOT\CIMV2, after a moment the Classes pane populates (annotation B). Whereas a namespace defines a group of related classes, the class itself is a blueprint (definition) for a particular hardware or software component.
+
+Type service in the Quick Filter list and double-click Win32_Service to load all service instances on the local computer (annotation C). If we think of a class as a generic object blueprint, an instance is an individual copy of that blueprint.
+
+Any Windows computer has many services running, so WMI Explorer displays a mighty big list of service instances. Type spooler in the Quick Filter list and double-click Win32_Service.Name="Spooler" to load the properties of that instance (annotation D).
+
+At the bottom of the WMI Explorer window (annotation E) is the following query:
+
+SELECT * FROM Win32_Service WHERE Name='Spooler'
+Earlier I explained that WMI is Microsoft's implementation of CIM. Microsoft also created the WMI Query Language (WQL) to give admins a method that works like Structured Query Language (SQL) for accessing CIM object data. If you don't yet know SQL, I'd encourage you to learn it, because you can apply that syntax in WQL to query system configuration data.
+
+Finally, spend some time clicking across the six tabs marked at annotation F:
+
+Instances: Defines the object and shows selected attributes (properties) that describe the object).
+Properties: Full list of properties, along with their descriptions. The window that shows the MSDN documentation is especially helpful here.
+Methods: Actions that an object can perform. For example, we can call StartService() and StopService(), respectively, to start and stop the given service.
+Query: Use WQL syntax to run ad hoc queries against the current object.
+Script: Generate a PowerShell script from the current query.
+Logging: Status messages reported from the CIM repository itself.

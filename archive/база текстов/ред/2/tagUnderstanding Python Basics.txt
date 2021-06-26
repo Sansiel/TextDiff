@@ -1,0 +1,39 @@
+[ { id: 1, title: 'Understanding Python Basics', source: "https://www.informit.com/articles/index.aspx?st=60206", difficulty: 3.9, length:7500, text: [ `In this hour, you get a chance to learn some Python basics, such as using the print function to display output. You will read about using variables and how to assign values to variables, and you will gain an understanding of their data types. By the end of the hour, you will know how to get data into a script by using the input function and write your first Python script!
+`,
+`
+`,
+`Producing Python Script Output
+`,
+`Understanding how to produce output from a Python script is a good starting point for those who are new to the Python programming language. You get instant feedback on your Python statements from the Python interactive interpreter and can experiment with proper syntax. The print function, which you met in Hour 3, “Setting Up a Programming Environment,” is a good place to focus your attention.
+`,
+`
+`,
+`Exploring the print Function
+`,
+`A function is a group of Python statements that are put together as a unit to perform a specific task. You simply enter a single Python statement to perform a task for you.
+`,
+`
+`,
+`Using Characters as print Function Arguments
+`,
+`To display characters (also called string literals) using the print function, you need to enclose the characters in either a set of single quotes or double quotes. Listing 4.1 shows using a pair of single quotes to enclose characters (a sentence) so it can be used as a print function argument.
+`,
+`
+`,
+`Formatting Output with the print Function
+`,
+`You can perform various output formatting features by using the print function. For example, you can insert a single blank line by using the print function with no arguments
+`,
+`The screen in Figure 4.1 shows a short Python script that inserts a blank line between two other lines of output.
+`,
+`
+`,
+`Another way to format output using the print function is via triple quotes. Triple quotes are simply three sets of double quotes (''').
+`,
+`
+`,
+`Listing 4.5 shows how to use triple quotes to embed a linefeed character (via pressing the Enter key). When the output is displayed, each embedded linefeed character causes the next sentence to appear on the next line. Thus, the linefeed moves your output to the next new line. Notice that you cannot see the linefeed character embedded on each code line—you can see only its effect in the output.
+`,
+`
+`,
+ ] }

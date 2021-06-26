@@ -1,0 +1,71 @@
+[ { id: 1, title: '13 spooky science stories', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 3.0, length:7500, text: [ `A mysterious submarine death
+`,
+`hunley submarine 
+`,
+`CSS H.L. Hunley
+`,
+`
+`,
+`U.S. Navy History and Heritage Command
+`,
+`
+`,
+`Let's get the party started with some old-school scares. Just this past summer, researchers claimed to finally solve the mystery of the H.L. Hunley, a hand-cranked submarine used by the Confederate army during the Civil War. Their findings were cool and all, but what really blew us away was the mystery itself: All eight members of the crew died seated at their battle stations. The sub was, for the most part, intact, and there was no sign that they had made any effort to evacuate or pump out water. None of them suffered broken bones. By all appearances, they'd died without a struggle. If the image of eight soldiers sitting stoically in wait of death doesn't wig you out, well, sorry. It's wiggy.
+`,
+`
+`,
+`Terrifying childcare inventions
+`,
+`A nurse with a baby 
+`,
+`No one wants to go home with the wrong newborn.
+`,
+`
+`,
+`Popular Science
+`,
+`
+`,
+`Tech can be terrifying, too. Especially old tech. Popular Science is 145 years old (even though we don't look a day over 25) so we can actually pull from our own history for some creep-tastic innovations. Here we have some truly troubling childcare inventions from the early 20th century. Apparently, we once put out a call for readers to invent hermetically-sealed, soundproof tubes in which to stow annoying babies on trains. We would like to formally apologize to babies.
+`,
+`
+`,
+`The grossest clam of all time
+`,
+`shipworm 
+`,
+`No thank you please.
+`,
+`
+`,
+`Marvin Altamia
+`,
+`
+`,
+`As you watch the giant shipworm Kuphus polythalamia ooze out of its shell like Tim Burton's idea of cake frosting, a few words might spring into your mind. "Science fiction plague," perhaps, or "dear god, why have you forsaken us," or "put that thing back where it came from, or so help me." Please enjoy this video of the shipworm in question saying a bright and beautiful good morning to the world:
+`,
+`
+`,
+`
+`,
+`Two-butted nightmares from the deep
+`,
+`blind cusk eel
+`,
+`The blind cusk eel is NOT what it looks like.
+`,
+`
+`,
+`CSIRO ANFC
+`,
+`
+`,
+`Speaking of nightmare monsters from the deep: this year scientists brought up a whole bunch of off-putting creatures from the deep. An expedition in Australia’s Eastern Abyss showed that when you gaze into the abyss and the abyss gazes back, the abyss is often a fish with two butts. Or one that looks a lot like a penis. Like, a lot. These animals look so much like penises! And that's terrifying. It's basically a rule that any organism that's evolved to live at the bottom of the ocean is going to look really, really weird to us. Whether they're delightful or horrifying is just a matter of perspective.
+`,
+`
+`,
+`continie - https://www.popsci.com/13-spooky-science-stories#page-5
+`,
+`
+`,
+ ] }

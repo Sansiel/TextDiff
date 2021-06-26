@@ -1,0 +1,33 @@
+[ { id: 1, title: 'Alfred Kinsey', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 3.0, length:7500, text: [ `Biologist Alfred Kinsey wrote Sexual Behavior in the Human Male, which was based on research he and his colleagues conducted at the Institute for Sex Research.
+`,
+`Synopsis
+`,
+`Alfred Kinsey was born on June 23, 1894, in Hoboken, New Jersey. In 1938, he launched a sex studies program. In 1947, he incorporated under the name, the Institute for Sex Research, Inc. In 1948, Kinsey published his first book, Sexual Behavior in the Human Male, followed by a sequel in 1953. On August 25, 1956, Kinsey died in Bloomington, Indiana, from complications caused by congestive heart failure.
+`,
+`
+`,
+`Early Life
+`,
+`Alfred Charles Kinsey was born on June 23, 1894, to engineering professor Alfred Seguine Kinsey and his wife, Sarah (Charles) Kinsey, in the tenement town of Hoboken, New Jersey. He was the oldest of three children in a devout Methodist family. Alfred Kinsey's mother described her firstborn son as, "shy and soft spoken."
+`,
+`
+`,
+`In 1912, Kinsey graduated as valedictorian of his high school class. He worked to fund his undergraduate education while attending Bowdoin College, where he graduated, magna cum laude, with a Bachelor of Science in biology and psychology in 1916. In 1920, Kinsey received a doctorate degree in biology from Harvard University. He met his future wife, Clara McMillan, at a zoology department picnic that same year.
+`,
+`
+`,
+`
+`,
+`Educator
+`,
+`Shortly after earning his doctorate at Harvard, Kinsey accepted a job as a professor in the zoology department at Indiana University in Bloomington. A specialist in botany and insects, through his research, Kinsey established himself as the No. 1 authority on the gall wasp. From 1926 to 1929, he took field trips all over the country with his students, collecting tens of thousands of gall wasp specimens along the way. He focused intently on categorizing and numbering his specimens, but longed to take his scientific investigation a step further. Turning his focus to questions of evolution and natural selection, in 1930—a year after he was promoted to full professor—Kinsey published his findings in a paper called The Gall Wasp Genus Cynips: A Study in the Origin of the Species.
+`,
+`
+`,
+`Sexual Behavior Studies
+`,
+`In the 1930s, Kinsey agreed to teach a marriage course. When his students starting asking him questions about sex, Kinsey realized there was very little scientific data on the matter. He decided to apply the principles of scientific research toward the topic of sexual behavior. In 1938, he launched a sex studies program. In the early 1940s, he procured funding from the National Research Council and the Rockefeller Foundation's Medical Division. In 1947, Kinsey and his research assistants became incorporated under the name the Institute for Sex Research, Inc.
+`,
+`
+`,
+ ] }

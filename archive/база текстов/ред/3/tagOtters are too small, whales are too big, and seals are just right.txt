@@ -1,0 +1,25 @@
+[ { id: 1, title: 'Otters are too small, whales are too big, and seals are just right', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 3.2, length:7500, text: [ `Conventional wisdom holds that whales got so big simply because they could. Water makes you buoyant and oceans are big, and that lack of constraint seems to have allowed mammals to grow to spectacular sizes.
+`,
+`
+`,
+`But new research suggests there might actually be more constraints on aquatic mammal size—not less. To figure it out, researchers looked at 3,859 living mammals and 2,999 fossil species, noting how body size had changed as the mammalian lineage evolved. They published their results on Monday in the journal PNAS.
+`,
+`
+`,
+`Though certain giant whales and otters are exceptions, a preponderance of the marine mammals lie just above the 500 kilogram bodyweight mark (that’s 1,102 pounds). That’s true regardless of the body size of their terrestrial counterparts. Dogs, giraffes, and moles all belong to similar evolutionary groups as seals, whales, and manatees, yet the aquatic versions vary a lot less in size. That suggested to the researchers that this was not just a matter of water allowing mammals to get bigger. They seemed to be drawn to a particular weight—500 kg.
+`,
+`
+`,
+`Their data suggest a simple explanation for this strange uniformity in size: ocean water steals your heat.
+`,
+`
+`,
+`Water is exceptionally good at pulling body heat out of you. The technical term for this is high specific heat. A substance’s specific heat is how much is required to raise the temperature of one kilogram of the substance by one degree kelvin (or 2.2 pounds by 1.8°F). Imagine flames beneath pans holding either water or olive oil. The olive oil will heat up pretty fast, whereas the water will take quite a while (as anyone who has tried to cook pasta in a hurry knows). Olive oil has a specific heat of 1.97, whereas water’s is 4.19. It takes almost twice as much energy to heat the water.
+`,
+`
+`,
+`This means the water of the sea can absorb a lot of heat from bodies floating in it without changing its own temperature much. If the water around you warmed quickly, you'd be surrounded by a thin layer of warm water and wouldn't lose heat so fast. Since it doesn't, your body just keeps cooling off.
+`,
+`
+`,
+ ] }

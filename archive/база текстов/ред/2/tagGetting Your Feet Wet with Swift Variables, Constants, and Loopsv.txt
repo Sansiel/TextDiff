@@ -1,0 +1,29 @@
+[ { id: 1, title: 'Getting Your Feet Wet with Swift Variables, Constants, and Loopsv', source: "https://www.informit.com/articles/index.aspx?st=60206", difficulty: 3.1, length:7500, text: [ `Swift is a new programming language created by Apple, with the intention of making development of software for Apple products significantly easier. If you have experience in C and Objective-C, you should find Swift to be a walk in the park. All the classes and types that are available to you in C and Objective-C are ported over and available in their exact incarnations in Swift.
+`,
+`
+`,
+`If, however, you come from a Ruby or Python background, you will find Swift’s syntax to be right up your alley. Swift borrows and iterates on many ideas from Python and Ruby.
+`,
+`
+`,
+`If you come from the JavaScript world, you will be pleased to know that Swift also doesn’t ask you to declare types, as old strict Java does. You will also be pleased to know that Swift has its own version of indexOf and many other familiar JavaScript functions. If they aren’t the exact replicas of said functions, they will at least be familiar.
+`,
+`
+`,
+`If you come from the Java world, you will be happy to know that even though Swift does not force you to declare types, you still can and Swift most certainly enforces those types, very strictly.
+`,
+`
+`,
+`These are all just basic syntax comparisons; the real magic evolves from Swift’s chameleon-like capability to be written in any way that makes you the programmer comfortable. If you want to write the tersest one-liner that does everything you ever needed in one fell swoop, Swift has you covered. If you want to write Haskell-like functional programming, Swift can do that, too. If you want to write beautiful object-oriented programming with classic design patterns, Swift will do that as well.
+`,
+`
+`,
+`In the future (or now, depending on when you are reading this), Swift will be open source so that you can officially (theoretically) write Swift on Linux or Windows. Someone may even create a web framework like Ruby on Rails in Swift.
+`,
+`
+`,
+`This chapter covers the basic building blocks of Swift. It starts with variables and constants. With this knowledge, you will be able to store whatever you’d like in memory. Swift has a special feature called optionals, which allows you to check for nil values in a smoother way than in other programming languages. As I briefly mentioned before, Swift has strong type inference; this allows you to have strict typing without needing to declare a type. This chapter also goes over how Swift handles loops and if/else statements.
+`,
+`
+`,
+ ] }

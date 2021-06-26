@@ -1,0 +1,39 @@
+[ { id: 1, title: 'Stephen Hawking', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 2.2, length:7500, text: [ `Scientist Stephen Hawking was known for his groundbreaking work with black holes and relativity, and was the author of several popular science books including 'A Brief History of Time.'
+`,
+`Who Was Stephen Hawking?
+`,
+`Stephen Hawking (January 8, 1942 to March 14, 2018) was a British scientist, professor and author who performed groundbreaking work in physics and cosmology, and whose books helped to make science accessible to everyone. At age 21, while studying cosmology at the University of Cambridge, he was diagnosed with amyotrophic lateral sclerosis (ALS). Part of his life story was depicted in the 2014 film The Theory of Everything.
+`,
+`
+`,
+`Stephen Hawking’s Books
+`,
+`Over the years, Stephen Hawking wrote or co-wrote a total of 15 books. A few of the most noteworthy include:
+`,
+`
+`,
+`'A Brief History of Time'
+`,
+`In 1988 Hawking catapulted to international prominence with the publication of A Brief History of Time. The short, informative book became an account of cosmology for the masses and offered an overview of space and time, the existence of God and the future. The work was an instant success, spending more than four years atop the London Sunday Times' best-seller list. Since its publication, it has sold millions of copies worldwide and been translated into more than 40 languages. 
+`,
+`
+`,
+`
+`,
+`‘The Universe in a Nutshell’
+`,
+`A Brief History of Time also wasn't as easy to understand as some had hoped. So in 2001, Hawking followed up his book with The Universe in a Nutshell, which offered a more illustrated guide to cosmology's big theories. 
+`,
+`
+`,
+`‘A Briefer History of Time’
+`,
+`In 2005, Hawking authored the even more accessible A Briefer History of Time, which further simplified the original work's core concepts and touched upon the newest developments in the field like string theory.   
+`,
+`
+`,
+`Together these three books, along with Hawking's own research and papers, articulated the physicist's personal search for science's Holy Grail: a single unifying theory that can combine cosmology (the study of the big) with quantum mechanics (the study of the small) to explain how the universe began. This kind of ambitious thinking allowed Hawking, who claimed he could think in 11 dimensions, to lay out some big possibilities for humankind. He was convinced that time travel is possible, and that humans may indeed colonize other planets in the future.
+`,
+`
+`,
+ ] }

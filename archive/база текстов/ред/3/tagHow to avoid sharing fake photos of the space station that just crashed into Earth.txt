@@ -1,0 +1,28 @@
+[ { id: 1, title: 'How to avoid sharing fake photos of the space station that just crashed into Earth', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.3, length:7500, text: [ `Well, in a shocking turn of events, that very space station did indeed crash down to Earth on the evening of Sunday, April 1 (EST). And (get ready for a big surprise) it didn’t hit anyone. In fact, it fell in the middle of nowhere. We’ll be lucky if anyone even managed to catch a picture of it.
+`,
+`
+`,
+`If you’ve been paying attention to your good friends at Popular Science, you know exactly why this cataclysmic-sounding event turned out to basically be a non-event. But if you’re just tuning in to our coverage today, here’s a rundown:
+`,
+`
+`,
+`What happened to Tiangong-1?
+`,
+`Launched in 2011 and roughly the size of a bus, Tiangong-1 was China’s first prototype space station. It hosted some human visitors and even had its lifespan extended by a couple of years, but in 2016 China lost its telemetry link with the satellite. It eventually came to light that Tiangong-1 was out of control, which meant its orbit would slowly degrade—slowing down, spinning closer to Earth, encountering more atmosphere to drag on it, slowing down more, and so on—until it fell in an uncontrolled descent. The initial estimate was for late 2017, but Tiangong-1 kept chugging along until April 1.
+`,
+`
+`,
+`When did it actually come down, and where?
+`,
+`According to a statement from the U.S. Strategic Command’s (USSTRATCOM) Joint Force Space Component Command, the bird came home to roost at 8:16 p.m. eastern on Sunday, April 1.
+`,
+`
+`,
+`Most of Tiangong-1 surely burned up during reentry as expected. But any small pieces that remained scattered in the southern Pacific Ocean.
+`,
+`
+`,
+`Why didn’t Tiangong-1 hit anyone?
+`,
+`Here’s the thing about our planet: it’s mostly water. And the parts of it that aren’t water still have plenty of uninhabited areas. And, plenty of the technically inhabited regions of our globe are still pretty sparse in terms of people per mile. So while it was technically possible that Tiangong-1 would happen to spit a piece of space debris right over Times Square on New Year’s Eve, when doing so would have basically guaranteed that somebody was gonna get hit, the world is so big that it was far, far more likely for Tiangong-1 to come down in a place where no one happened to be standing at the wrong time. And as it turns out, it’s unlikely that anyone was even poised to see it from the air`,
+ ] }

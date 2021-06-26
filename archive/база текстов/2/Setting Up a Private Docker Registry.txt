@@ -1,0 +1,17 @@
+One of the foundations of Docker is the ability to request to use an existing container image and then, if it is not already on your system, grab it from somewhere and download it to your system. By default, “somewhere” is the Docker Hub Registry (https://hub.docker.com). However, there are ways to configure other locations from which you can pull docker images. These locations are referred to as registries.
+
+By setting up your own private registry, you can keep your private images to yourself. You can also save time by pushing and pulling your images locally, instead of having them go out over the Internet.
+
+Setting up a private registry is simple. It requires getting the service (by installing a package or using the registry Docker container image), starting the service, and making sure the proper port is open so the service is accessible. Using registries requires a bit more explanation than setting up one, especially when you consider that features are added to Docker every day that are changing how Docker uses and searches registries for images.
+
+In particular, the way that Docker uses the image namespace is changing to be more adaptable. If your location is disconnected from the Internet, with the Docker hub inaccessible, features are being developed to allow you to use a different default registry. Likewise, new features let you add registries to your search order, much the same way you can have an Internet browser look at different DNS servers.
+
+This chapter describes how to set up a private Docker registry on several different Linux systems. The first examples are simply to help you get a Docker registry up and running quickly to begin testing or learning how to use registries. After that, I describe some techniques for making a Docker registry more production ready.
+
+Later in the chapter, I tell you how to adapt the way your local Docker service uses Docker registries, including how to replace Docker.io as the default registry and add other registries to the search path.
+
+Getting and Starting a Private Docker Registry
+You can run a Docker registry on your Linux system in a number of different ways to store your own Docker images. For Linux distributions that include a docker-registry package (such as Fedora and Red Hat Enterprise Linux), you can install that package and start up the service. For other distributions, you can run the official registry container image from Docker.io to provide the service.
+
+See the section later in the chapter that corresponds to the Linux system you are using for instructions on installing and running a Docker registry on that system. For Fedora, I illustrate how to use the docker-registry package, while for Ubuntu I show how to use the registry container.
+

@@ -1,0 +1,26 @@
+Java is an object-oriented programming language. When you do work in Java, you primarily use objects to get the job done. You create objects, modify them, change their variables, call their methods, and combine them with other objects. You develop classes, create objects out of those classes, and use them with other classes and objects.
+
+Today, you work extensively with objects as you undertake these essential tasks:
+
+Creating objects
+Testing and modifying their class and instance variables
+Calling an object’s methods
+Converting objects from one class to another
+Creating New Objects
+When you write a Java program, you define a set of classes. As you learned during Day 1, “Getting Started with Java,” a class is a template used to create one or more objects. These objects, which also are called instances, are self-contained elements of a program with related features and data. For the most part, you use the class merely to create instances and then work with those instances. In this section, you learn how to create a new object from any given class.
+
+When using strings during Day 2, “The ABCs of Programming,” you learned that a string literal (a series of characters enclosed in double quotation marks) can be used to create a new instance of the class String with the value of that string.
+
+The String class is unusual in that respect. Although it’s a class, it can be assigned a value with a literal as if it was a primitive data type. This shortcut is available only for strings and classes that represent primitive data types, such as Integer and Double. To create instances for all other classes, the new operator is used.
+
+Using new
+To create a new object, you use the new operator with the name of the class that should be used as a template.
+The parentheses are important and can’t be omitted. They can be empty, however, in which case the most simple, basic object of that class is created. The parentheses also can contain arguments that determine the values of instance variables or other initial qualities of that object.
+To include inside the parentheses are defined by the class itself using a special method called a constructor (which is introduced later today). If you try to create a new instance of a class with the wrong number or wrong type of arguments, or if you give it no arguments and it needs them, an error occurs when the program is compiled.
+
+Today’s first project is a demonstration of creating different types of objects with different numbers and types of arguments. The StringTokenizer class in the java.util package divides a string into a series of shorter strings called tokens.
+
+You divide a string into tokens by applying a character or characters as a delimiter. For example, the text “02/20/67” could be divided into three tokens—“02”, “20”, and “67”—using the slash character / as a delimiter.
+
+Today’s first project is a Java application that uses string tokens to analyze stock price data. In NetBeans, create a new empty Java file for the class TokenTester in the com.java21days package, and enter the code in Listing 3.1 as its source code. This program creates StringTokenizer objects by using new in two different ways and then displays each token the objects contain.
+

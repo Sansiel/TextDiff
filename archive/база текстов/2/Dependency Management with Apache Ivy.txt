@@ -1,0 +1,24 @@
+Ant is a build tool and Ivy is a dependency management tool. Maven, on the other hand, is both a build tool and a dependency manager. There are pros and cons to using two tools as opposed to one. With just one tool, you have a kind of one-stop shop. However, the combined tool may be a little harder to use than is the case for the individual tools.
+
+With Ant and Ivy, each tool is dedicated to doing just one thing. This approach can make them a little easier to understand, particularly when things go wrong. Also, the Ant/Ivy combination is a good example of the old UNIX principle of doing one thing and doing it well: Ant is a solid build tool, and Ivy is likewise a reliable dependency manager.
+
+Because of their close relationship, Ivy even comes with a set of pre-built Ant tasks to help you get started using Ivy. Before we get into the details of how to work with Ant/Ivy, let's look a little at the area of dependency management in general.
+
+Rationale for Dependency Automation
+How often have you struggled with Eclipse or some other IDE, trying to get rid of the compilation error markers in your Java files? This problem is often caused by missing (or incorrect) dependency errors. A little later in this article, we'll look at a concrete Eclipse example that illustrates the key role automatic dependency management can play in fixing these knotty issues. We'll also examine the workflow for using Internet repositories, such as Maven Central.
+
+Managing code dependencies generally boils down to a simple choice: manual or automatic. If, like me, you prefer to exert a lot of control over your code dependencies, then the manual path is attractive, at least initially. However, a point tends to come when dependency management really needs to be automated.
+
+When you think about it, complex dependency issues don't have a lot to do with design and coding, so it's natural to think about using a tool for this often tedious task.
+
+As your code grows, it acquires what's called a tree of dependencies. Let's look at this next.
+
+The Tree of Dependencies
+Any Java project of reasonable complexity has a non-trivial set of dependencies consisting of JAR files with the internal resources needed to build, deploy, and run an application. Sounds simple, but these dependencies can get out of hand. Let's explore this with an example.
+
+Adding a New Facility to Your Code
+Let's say, for example, you read my earlier article "Java Data Validation Using Hibernate Validator," and you've decided to add a third-party validation mechanism to your application. Validation is often added late in a project, and very often programmers will opt to create their own bespoke solutions. But let's assume you decide to go with an open source solution.
+
+One decent choice in this space is Hibernate Validator. To make this a little more concrete, let's assume that you already have an existing Ant build file. Adding Hibernate Validator then amounts to nothing more than installing Ivy and the addition of a single Ant target to fetch the dependencies. It's a similar story if you use Maven for dependency management; you just make a small addition to your metadata file pom.xml. Because I used Maven in the previous article, we can compare the two approaches.
+
+Listing 1 illustrates the required Ivy setup for fetching the dependencies from the Maven Central Repository.

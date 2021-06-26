@@ -1,0 +1,37 @@
+[ { id: 1, title: 'Jupiter’s strange, pulsating auroras are even more mysterious than we thought', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 3.4, length:7500, text: [ `Glowing high in the atmosphere, the northern and southern lights shine softly, brilliantly—and on Jupiter, weirdly.
+`,
+`
+`,
+`Jupiter, like our own planet, has distinct auroras (northern lights by another name) near its poles. An aurora forms when charged particles are accelerated by a planet or brown dwarf’s magnetic field and slam into the atmosphere, creating beautiful lights in the night sky. In the case of Jupiter, many of the electromagnetic waves thrown off by its auroras are x-rays—invisible to human eyes, but key to understanding more about how auroras on Jupiter form.
+`,
+`
+`,
+`In a study published in Nature Astronomy this week, astronomers announced that they’d finally been able to observe Jupiter’s southern x-ray hot spot in detail using data from the XMM-Newton and Chandra space observatories in 2007 and 2016. Surprisingly, Jupiter’s x-ray hot spots weren’t exactly in synch across the hemispheres.
+`,
+`
+`,
+`In the southern half of the planet, the x-ray rich aurora pulses at a constant rate, spiking about every nine to twelve minutes. The northern one is much more erratic. It dims and brightens at a pace that is seemingly independent of its southerly counterpart. That’s different from Earth, where aurora caused by solar activity tend to affect both north and south poles in a predictable manner.
+`,
+`
+`,
+`“The behaviour of Jupiter’s X-ray hot spots raises important questions about what processes produce these auroras,” study co-author Licia Ray said in a statement. “We know that a combination of solar wind ions and ions of oxygen and sulfur, originally from volcanic explosions from Jupiter’s moon, Io, are involved. However, their relative importance in producing the X-ray emissions is unclear.”
+`,
+`
+`,
+`Scientists had previously discovered that solar storms caused increased activity in Jupiter’s auroras, but they’re interested to know if other factors, like Jupiter’s massive magnetic field, have more of an impact on their formation.
+`,
+`
+`,
+`
+`,
+`
+`,
+`Jupiter's auroras present other mysteries too. Last month NASA scientists measured massive amounts of energy swirling in Jupiter's magnetic field, the kind of energy that produces some of the brightest aurora on earth, but tens of times more powerful. Strangely though, those high levels of energy didn't produce the most intense aurora on Jupiter, another way that its auroras don't quite match up with ours.
+`,
+`
+`,
+`To solve the myster(ies), they’re going to have to take a closer look. The Juno spacecraft currently at Jupiter doesn’t have an x-ray observing instrument, but it can make other measurements in visible light, radiowaves, and other forms of electromagnetic radiation. Combined with more remote x-ray observatories, the researchers hope that they can match up observations of x-ray hot spots with other physical processes that Juno observes in the atmosphere, and eventually shine some light on this aurora’s murky origins.
+`,
+`
+`,
+ ] }

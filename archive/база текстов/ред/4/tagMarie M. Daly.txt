@@ -1,0 +1,39 @@
+[ { id: 1, title: 'Marie M. Daly', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 3.1, length:7500, text: [ `Marie M. Daly is best known for being the first African-American woman to receive a Ph.D. in chemistry in the United States.
+`,
+`Synopsis
+`,
+`Marie M. Daly was born on April 16, 1921, in Queens, New York. She was raised in an education-oriented family, and Daly quickly received her B.S. and M.S. in chemistry at Queens College and New York University. After completing her Ph.D. at Columbia—and becoming the first African-American woman to obtain a Ph.D. in chemistry in the United States—Daly taught and conducted research. She died in New York City on October 28, 2003.
+`,
+`
+`,
+`Background
+`,
+`Future chemist Marie M. Daly was born on April 16, 1921, in Queens, New York. The pioneering scientist was the first African-American woman to receive a Ph.D. in chemistry in the United States, and her groundbreaking work helped clarify how the human body works.
+`,
+`
+`,
+`Daly came from a family who believed strongly in the power of education. Her father, Ivan C. Daly, had emigrated from the West Indies as a young man and enrolled at Cornell University to study chemistry. A lack of money blocked his path, however, and he was forced to quit college, instead returning to New York City where he found work as a postal clerk.
+`,
+`
+`,
+`
+`,
+`Daly's mother, Helen, grew up in Washington, D.C., and came from a family of readers. She spent long hours reading to her daughter, and fostered Marie's love of books—in particular those that centered on science and scientists.
+`,
+`
+`,
+`Higher Education
+`,
+`After graduating from Hunter College High School, an all-girls institution in New York City, Daly attended Queens College in Flushing, New York, choosing to live at home in order to save money.
+`,
+`
+`,
+`Daly graduated with honors in 1942 and, to get around the fact that she didn't have much money for graduate school, landed work as a lab assistant at her old college as well as a hard-earned fellowship. Both were instrumental in helping her to cover the costs of getting a graduate degree in chemistry from New York University.
+`,
+`
+`,
+`Daly didn't waste time in completing her studies. She finished her master's degree in just a year and then, in 1944, enrolled at Columbia University as a doctoral student. Aided by her own ambition and intelligence, Daly was further helped by timing. World War II was at its peak, and employers were looking for women to fill the jobs left by the scores of men who'd been sent overseas to fight. In addition, Columbia's chemistry program was being led by Dr. Mary L. Caldwell, a renowned scientist who helped blaze new trails for women in chemistry throughout her career.
+`,
+`
+`,
+ ] }

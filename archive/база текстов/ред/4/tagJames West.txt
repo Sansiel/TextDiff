@@ -1,0 +1,34 @@
+[ { id: 1, title: 'James West', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 2.7, length:7500, text: [ `James West is a U.S. inventor and professor who, in 1962, developed the electret transducer technology later used in 90 percent of contemporary microphones.
+`,
+`Synopsis
+`,
+`Born in Prince Edward County, Virginia, on February 10, 1931, James West attended Temple University before working for Bell Labs. Along with Gerhard M. Sessler, he developed the foil electret microphone, an inexpensive, compact device that is now used in 90 percent of all contemporary microphones. A prolific writer as well, West has more than 250 patents and became a professor at Johns Hopkins University.
+`,
+`
+`,
+`Background
+`,
+`Inventor James West was born on February 10, 1931, in Prince Edward County, Virginia. As a child, he was intrigued by how things worked and enjoyed taking apart appliances. "If I had a screwdriver and a pair of pliers, anything that could be opened was in danger," West would later recollect. "I had this need to know what was inside."
+`,
+`
+`,
+`After an accident with a radio he had tinkered with, West became enthralled with the concept of electricity. He knew he wanted to pursue his interest in science academically, though his parents were concerned about future job prospects for an African-American scientist, due to the racism and Jim Crow laws of the South. They preferred for him to become a physician.
+`,
+`
+`,
+`
+`,
+`Education
+`,
+`Undeterred, West headed to Temple University in 1953 to study physics and worked during the summers as an intern for the Acoustics Research Department at Bell Laboratories in Murray Hill, New Jersey. He received a bachelor's degree in physics in 1957, and was hired for a full-time position as an acoustical scientist by Bell.
+`,
+`
+`,
+`Develops Electret Microphone
+`,
+`In 1960, while at Bell, West teamed up with fellow scientist Gerhard M. Sessler to develop an inexpensive, highly sensitive, compact microphone. In 1962, they finished development on the product, which relied on their invention of electret transducers. By 1968, the electret microphone was in mass production. West's and Sessler's invention became the industry standard, and today, 90 percent of all contemporary microphones—including the ones found in telephones, tape recorders, camcorders, baby monitors and hearing aids—use their technology.
+`,
+`
+`,
+`Years later, West was appointed president-elect of the Acoustical Society of America in 1997 and joined the National Academy of Engineering in 1998. And both West and Sessler were inducted into the National Inventors Hall of Fame in 1999. West has also worked with initiatives to entreat women and students of color to explore and pursue careers in the fields of science and technology.`,
+ ] }

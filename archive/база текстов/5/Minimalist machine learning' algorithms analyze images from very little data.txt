@@ -1,0 +1,17 @@
+Mathematicians at the Department of Energy's Lawrence Berkeley National Laboratory (Berkeley Lab) have developed a new approach to machine learning aimed at experimental imaging data. Rather than relying on the tens or hundreds of thousands of images used by typical machine learning methods, this new approach 'learns' much more quickly and requires far fewer images.
+
+Daniel Pelt and James Sethian of Berkeley Lab's Center for Advanced Mathematics for Energy Research Applications (CAMERA) turned the usual machine learning perspective on its head by developing what they call a 'Mixed-Scale Dense Convolution Neural Network (MS-D)' that requires far fewer parameters than traditional methods, converges quickly, and has the ability to 'learn' from a remarkably small training set. Their approach is already being used to extract biological structure from cell images, and is poised to provide a major new computational tool to analyze data across a wide range of research areas.
+
+As experimental facilities generate higher resolution images at higher speeds, scientists can struggle to manage and analyze the resulting data, which is often done painstakingly by hand. In 2014, Sethian established CAMERA at Berkeley Lab as an integrated, cross-disciplinary center to develop and deliver fundamental new mathematics required to capitalize on experimental investigations at DOE Office of Science user facilities. CAMERA is part of the lab's Computational Research Division.
+
+'In many scientific applications, tremendous manual labor is required to annotate and tag images -- it can take weeks to produce a handful of carefully delineated images,' said Sethian, who is also a mathematics professor at the University of California, Berkeley. 'Our goal was to develop a technique that learns from a very small data set.'
+
+Details of the algorithm were published Dec. 26, 2017 in a paper in the Proceedings of the National Academy of Sciences.
+
+'The breakthrough resulted from realizing that the usual downscaling and upscaling that capture features at various image scales could be replaced by mathematical convolutions handling multiple scales within a single layer,' said Pelt, who is also a member of the Computational Imaging Group at the Centrum Wiskunde & Informatica, the national research institute for mathematics and computer science in the Netherlands.
+
+To make the algorithm accessible to a wide set of researchers, a Berkeley team led by Olivia Jain and Simon Mo built a web portal 'Segmenting Labeled Image Data Engine (SlideCAM)' as part of the CAMERA suite of tools for DOE experimental facilities.
+
+One promising application is in understanding the internal structure of biological cells and a project in which Pelt's and Sethian's MS-D method needed only data from seven cells to determine the cell structure.
+
+'In our laboratory, we are working to understand how cell structure and morphology influences or controls cell behavior. We spend countless hours hand-segmenting cells in order to extract structure, and identify, for example, differences between healthy vs. diseased cells,' said Carolyn Larabell, Director of the National Center for X-ray Tomography and Professor at the University of California San Francisco School of Medicine. 'This new approach has the potential to radically transform our ability to understand disease, and is a key tool in our new Chan-Zuckerberg-sponsored project to establish a Human Cell Atlas, a global collaboration to map and characterize all cells in a healthy human body.

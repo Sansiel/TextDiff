@@ -1,0 +1,37 @@
+[ { id: 1, title: 'Private browsing gets more private', source: "https://www.sciencedaily.com/news/computers_math/computer_programming/", difficulty: 2.2, length:7500, text: [ `Today, most web browsers have private-browsing modes, in which they temporarily desist from recording the user's browsing history.
+`,
+`
+`,
+`But data accessed during private browsing sessions can still end up tucked away in a computer's memory, where a sufficiently motivated attacker could retrieve it.
+`,
+`
+`,
+`This week, at the Network and Distributed Systems Security Symposium, researchers from MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) and Harvard University presented a paper describing a new system, dubbed Veil, that makes private browsing more private.
+`,
+`
+`,
+`Veil would provide added protections to people using shared computers in offices, hotel business centers, or university computing centers, and it can be used in conjunction with existing private-browsing systems and with anonymity networks such as Tor, which was designed to protect the identity of web users living under repressive regimes.
+`,
+`
+`,
+`"Veil was motivated by all this research that was done previously in the security community that said, 'Private-browsing modes are leaky -- Here are 10 different ways that they leak,'" says Frank Wang, an MIT graduate student in electrical engineering and computer science and first author on the paper. "We asked, 'What is the fundamental problem?' And the fundamental problem is that [the browser] collects this information, and then the browser does its best effort to fix it. But at the end of the day, no matter what the browser's best effort is, it still collects it. We might as well not collect that information in the first place."
+`,
+`
+`,
+`Wang is joined on the paper by his two thesis advisors: Nickolai Zeldovich, an associate professor of electrical engineering and computer science at MIT, and James Mickens, an associate professor of computer science at Harvard.
+`,
+`
+`,
+`Shell game
+`,
+`
+`,
+`With existing private-browsing sessions, Wang explains, a browser will retrieve data much as it always does and load it into memory. When the session is over, it attempts to erase whatever it retrieved.
+`,
+`
+`,
+`But in today's computers, memory management is a complex process, with data continuously moving around between different cores (processing units) and caches (local, high-speed memory banks). When memory banks fill up, the operating system might transfer data to the computer's hard drive, where it could remain for days, even after it's no longer being used.
+`,
+`
+`,
+ ] }

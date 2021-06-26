@@ -1,0 +1,22 @@
+Dart is a general purpose programming language. It is a new language in the C tradition, designed to be familiar to the vast majority of programmers. The obligatory “Hello World” example illustrates how familiar Dart syntax is
+Unless your background in programming and computer science is either extremely unusual, or lacking entirely, this code should be virtually self-explanatory. We will of course elaborate on this program and more interesting ones in the pages that follow.
+
+Dart is purely object-oriented, class-based, optionally typed and supports mixin-based inheritance and actor-style concurrency. If these terms are unfamiliar, fear not, they will all be explained as we go along.
+
+That said, this book is not intended as a tutorial for novices. The reader is expected to have a basic competence in computer programming.
+
+While the bulk of this book will describe and illustrate the semantics of Dart, it also discusses the rationale for certain features. These discussions are included because, in my experience, good programmers are interested not only in what a programming language does, but why. And so, the next few sections give a very high level overview of the philosophy behind Dart. Later sections will also incorporate discussions of design decisions, alternatives and the history of the key ideas. However, if you are eager to just dive in, section 1.4 gives a quick tutorial.
+
+And now, on with the show!
+
+1.1 Motivation
+The rise of the world-wide web has changed the landscape of software development. Web browsers are increasingly seen as a platform for a wide variety of software applications. In recent years, mobile devices such as smartphones and tablets have also become increasingly ubiquitous. Both of these trends have had a large impact on the way software is written.
+
+Web browsers started as a tool to display static hypertext documents. Over time, they evolved to support dynamic content. Dynamic content is computed and recomputed over time and has grown from simple animations to server-based applications such as database front-ends and store fronts for internet commerce to full-fledged applications that can run offline.
+
+This evolution has been organic; a series of accidents, some happy and some less so, have enabled such applications to run on an infrastructure that was not really designed for this purpose.
+
+Mobile applications pose their own challenges. These applications must conserve battery life, providing a new incentive to improve performance. Network access may be slow, costly or even absent. Mobile platforms tend to impose a particular life cycle with particular restrictions on size.
+
+Dart is intended to provide a platform that is specifically crafted to support the kinds of applications people want to write today. As such it strives to protect the programmer from the undesirable quirks and low-level details of the underlying platform while providing easy access to the powerful facilities new platforms have to offer.
+

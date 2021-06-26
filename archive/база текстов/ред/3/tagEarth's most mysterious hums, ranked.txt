@@ -1,0 +1,27 @@
+[ { id: 1, title: 'Earth's most mysterious hums, ranked', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.0, length:7500, text: [ `When all else is quiet, Earth still hums. Scientists have known about this low-frequency droning for years, but last month researchers published the first-ever study to record the not-so-noisy noise on the bottom of the ocean. The paper presents some interesting findings on the hum and its frequencies—the planet’s oscillation clocks in between 2.9 and 4.5 millihertz, which is 10,000 times lower than sounds humans are capable of hearing—but at the end of the day, this vibration is just that: a vibration. The main benefit of this research, Ryan F. Mandelbaum pointed out for Gizmodo, is that scientists could pick up a lot of interesting seismological data in the course of studying the hum. Perhaps one day we could analyze it to learn something about the planet’s core, but we’re not there yet.
+`,
+`
+`,
+`
+`,
+`
+`,
+`We’re willing to wager that if you clicked on a story about a mysterious hum, you expected it to be about a different phenomenon—something humans can actually hear. The aforementioned study is indeed intriguing and important. But for those of you hoping for something a little sexier, here are some mysterious hums you can ponder with your own eardrums.
+`,
+`
+`,
+`The hum
+`,
+`Yes, that hum. The one that’s got a Wikipedia page titled “The Hum.”
+`,
+`
+`,
+`This refers to what may actually be many, unrelated phenomena. Basically, folks around the world—especially in a few select spots—tend to report the presence of a deep (dare we say ominous?) rumble. It’s tempting to assume that the latest deep sea research on the Earth’s hum provides an explanation for The Hum itself. But it definitely doesn’t.
+`,
+`
+`,
+`Not everyone hears the supposed humming in these hum-troubled towns (just 2 percent of people in affected areas, according to one study), but people do hear it. People cannot hear that hum that the Earth is always making. Yes, human hearing has its variations (your ability to hear high frequencies diminishes with age and ear damage) but there’s no way two percent of the population is walking around with a hearing range 10,000-times lower than average. For one thing, they’d also hear all the stuff between normal human hearing range and the seismic hum (and the stuff around the same frequency, like hospital ultrasounds).
+`,
+`
+`,
+ ] }

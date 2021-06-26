@@ -1,0 +1,39 @@
+[ { id: 1, title: 'Guion Stewart Bluford Jr', source: "https://www.biography.com/people/groups/famous-scientists", difficulty: 2.8, length:7500, text: [ `As a mission specialist aboard the space shuttle 'Challenger' in 1983, Guion S. Bluford became the first African American to travel into space.
+`,
+`Synopsis
+`,
+`Born in Philadelphia, Pennsylvania, in 1942, Guion S. Bluford was a decorated Air Force pilot in Vietnam before joining NASA in the late 1970s. In 1983, he became the first African American to travel into space when he served as a mission specialist aboard the space shuttle Challenger. Bluford completed three more NASA missions, compiling 688 hours in space by the time of his retirement in 1993.
+`,
+`
+`,
+`Early Life and Career
+`,
+`Guion Stewart Bluford Jr. was born on November 22, 1942, in Philadelphia, Pennsylvania. The son of a mechanical engineer and a special education teacher, Bluford grew up in a household where academic success was encouraged. He enrolled at Pennsylvania State University as a member of the U.S. Air Force ROTC program and graduated in 1964 with a degree in aerospace engineering. 
+`,
+`
+`,
+`Following his pilot training at Williams Air Force Base in Arizona, Bluford flew 144 combat missions during the Vietnam War. He won several medals for his service, including the Vietnam Cross of Gallantry with Palm. 
+`,
+`
+`,
+`After the war, Bluford enrolled at the Air Force Institute of Technology, where he received both a master's degree and a PhD in aerospace engineering. During this time, he also became a staff development engineer and branch chief of the Air Force Flight Dynamics Laboratory at Wright-Patterson Air Force Base in Ohio.
+`,
+`
+`,
+`
+`,
+`First African American in Space
+`,
+`Of some 10,000 applicants to the National Aeronautics and Space Administration's (NASA) space program, Guion S. Bluford was one of 35 chosen to join the new space shuttle team in January 1978. He officially became a NASA astronaut in August 1979. 
+`,
+`
+`,
+`Bluford made history on August 30, 1983, when he became the first African American to experience space travel. Bluford was a specialist for mission STS-8 aboard the space shuttle Challenger, which took off from the Kennedy Space Center in Florida for its first night launch. Over the course of 98 Earth orbits in 145 hours, Bluford and the crew operated a Canadian-built robot arm and conducted several biophysiological experiments. The mission ended on September 5, 1983, when the spacecraft touched down at Edwards Air Force Base in California in a night landing, another first for Challenger. 
+`,
+`
+`,
+`Two years later, on October 30, 1985, Bluford made his second trip to space as a specialist for mission STS 61-A aboard Challenger. He was among NASA's largest crew to date for the first dedicated Spacelab mission directed by the German Aerospace Research Establishment (DFVLR). After completing 111 Earth orbits in 169 hours, Challenger landed at Edwards Air Force Base on November 6, 1985. 
+`,
+`
+`,
+ ] }

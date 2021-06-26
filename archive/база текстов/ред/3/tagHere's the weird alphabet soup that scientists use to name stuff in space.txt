@@ -1,0 +1,33 @@
+[ { id: 1, title: 'Here's the weird alphabet soup that scientists use to name stuff in space', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.7, length:7500, text: [ `What’s in a name? An asteroid by any other name would smell as singed—and would still be a rock orbiting the sun on some far-flung journey.
+`,
+`
+`,
+`But we have to keep track of all those asteroids, comets, minor planets and planetary features somehow, and when trying to distinguish between various chunks of faint material out there in the solar system, having a specific name or reference point is a lot easier than saying “Hey, you remember that one asteroid from 1916? Whatever happened to that one?”
+`,
+`
+`,
+`Having names to distinguish between individual comets and asteroids has become even more important as telescopes have improved, bringing into focus countless heavenly bodies that were previously beyond us. Naming took on an additional, sudden urgency just a few weeks ago, when a small dark object became the first known visitor to our solar system from somewhere outside of our sun’s sphere of influence.
+`,
+`
+`,
+`Naming, Expedited
+`,
+`Originally classified as a comet, than an asteroid, the visitor from elsewhere was given a temporary designation A/2017 U1. Normally, astronomers would keep studying the object through telescopes, working out the orbit until they felt they had a good handle on where it was coming from and where it was headed. They'd send that information to the International Astronomical Union (IAU), which would review the data, and if approved, give it a designation and a number as an asteroid or a comet, and everyone would move on with their lives.
+`,
+`
+`,
+`
+`,
+`But this is no ordinary object, and there wasn’t time to get as much data as astronomers might have preferred before offering an official designation.
+`,
+`
+`,
+`“This is a tiny object—probably only a couple hundred meters across, so the time span over which we can actually observe it is rather short,” says Gareth Williams, Associate Director of the IAU’s Minor Planet Center (MPC). “People who wanted to look at it to determine physical characteristics really had to look at it within a day or so of discovery. Within a month, it will be too faint for even telescopes like Hubble to see it. ”
+`,
+`
+`,
+`But despite its small size, people at the IAU felt that the first observed visitor to our solar system should have a name, and that they should have a plan in place for objects that came after it. That’s why this week the MPC announced a provisional designation for the little space nugget. A more formal plan for naming the next interstellar visitor will come later.
+`,
+`
+`,
+ ] }

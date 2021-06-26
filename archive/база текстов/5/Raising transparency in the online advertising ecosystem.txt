@@ -1,0 +1,32 @@
+The online advertising business, led by companies like Google or Facebook, generated over $200 billion revenue in 2017, with an year-over-year growth over 15%. This online advertising explosion is raising serious data privacy concerns.
+
+Advertisers track users when they are online by shadowing them as they browse websites, perform web searches or watch movies. Tracking companies build a profile of each user based on such activities.
+
+Collecting and processing personal data and then offering it to interested parties often means maintaining a balance between sustaining the many gains the industry brings and concerns over the privacy of internet users. The TYPES project 'protects individuals' privacy while empowering them to control how their data is used by service providers for advertising purposes,' says Rosa Araujo, from Eurecat (Barcelona, Spain), project coordinator for the EU-funded initiative. 'By raising end user trust and advertiser transparency, all stakeholders of the advertising ecosystem stand to benefit.'
+
+Arturo Azcorra, director of IMDEA Networks Institute (Madrid, Spain),one of ten consortium members that have collaborated in the project, says about the results achieved, 'TYPES has created solutions that protect user's privacy while empowering them to control how their data is used by service providers for advertising purposes. At the same time, TYPES has raised awareness about the need to take decisive action to protect users' online rights and to ensure that the use of personal data, if and when it happens, is transparent and entails a reasonable value added to users.'
+
+Keeping internet advertisers in check
+
+TYPES has created tools designed to support the idea of a healthier, more transparent and thriving online advertising sector. This suite of tools enables users to 'better understand how their personal data is used online, ultimately building a strong foundation on which both industry and they can thrive,' continues Araujo.
+
+The Web Browser Plug-In (available as corporate and open-source versions) and Network Proxy tools concern privacy violation detection and safeguarding. Araujo explains that they allow users to 'know what information is being collected and tracked by websites and advertisers, among others.'
+
+Data valuation tools estimate the value that the online advertising market or users associate with different data which is mostly unknown and particularly difficult to assess. Software includes the Web Survey tool, Data Valuation Web Portal, YouTube Video Valuation tool and the Facebook Data Valuation tool. 'Divulging such information would be beneficial for both end users and the online advertising industry,' notes Araujo.
+
+TYPES also developed Data Broker, a privacy-by-design advertising and marketing solution. Araujo stresses that it 'helps end users to share and benefit from their data in the digital advertising ecosystem.'
+
+Products to boost business and protect privacy and personal data
+
+Some solutions are ready to hit the market, while others are well on their way. The corporate Web Browser Plug-In is being commercialised for SMEs. One of the project partners, a digital agency, will offer the open-source version to its customers.
+
+The subsidiary of a global security services company is expected to introduce the Network Proxy tool to its client base. 'This is a huge success for the project and the potential it can offer, because the company has a portfolio of several dozen companies who purchase solutions for improving their users' web experience,' emphasises Araujo.
+
+The Web Survey tool is freely available on the project website. Several partners intend to offer the Web Portal as a public service, aimed at maintaining transparency and creating awareness among citizens of personal data's value.
+
+There are plans to apply for public research funds to maintain the Facebook Data Valuation tool, which informs Facebook users in real time about the money they're generating for the social networking website. It's the only product of its kind in the marketplace. A patent has also been issued for the Data Broker algorithms.
+
+'Key market players and national organisations from the advertisement sector have expressed concern about the impact the project will have on established business models,' continues Araujo. 'Despite this, there's a certain underlying realisation that something needs to be done regarding transparency, and that the EU's new legislative framework for data privacy that comes into force in 2018 will make tools not only relevant, but needed.'
+
+'The rise of the digital economy must not need be equated with a loss to our privacy, even more when it is a fact unprecedented in history that minors have become major users of the services provided. The existence of parental controls is not enough to protect them when it comes, for example, to sharing their location in real-time,' concludes Azcorra. 'IMDEA Networks will continue work about the online advertising ecosystem in the context of the recently launched "MyBubble" initiative in collaboration with University Carlos III of Madrid and the MIT. MyBubble focusses on the personalization filter, the so-called "filter bubble" generated by online services on the basis of our preferences and interests, and how it influences the information we access.'
+

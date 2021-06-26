@@ -1,0 +1,37 @@
+[ { id: 1, title: 'If the Earth is spinning, why can’t I feel it', source: "https://www.popsci.com/tags/short-science-articles", difficulty: 2.5, length:7500, text: [ `Congratulations: you’re currently spinning at about 1,000 miles an hour without even trying! That’s how fast the Earth has to turn to make a complete rotation every day. So why can’t you feel it? Your stomach goes all topsy-turvy when you spin around on a merry-go-round, and that’s a lot slower than 1,000 miles per hour.
+`,
+`
+`,
+`You can’t feel yourself spinning on Earth for the same reason that you can’t feel yourself moving while you’re on a train. That’s because Earth and the train are both what physicists call “frames of reference.” Frames of reference are kind of like perspectives. A person standing on a train has one perspective—one frame of reference—and a person standing on a station platform has another.
+`,
+`
+`,
+`If you were standing on the station platform, you would clearly see the surface was standing still while the train whizzed by. But from the inside, you’d feel like you were standing still while the world moved by. From either frame of reference, you feel like you’re the one staying still. Onboard the train, the world moves. Standing on the platform, the train moves.
+`,
+`
+`,
+`The same is true of Earth and space, but at bigger scales. From inside the Earth’s frame of reference, we can’t tell that we’re spinning. But if we viewed Earth from the frame of reference of space, we would be able to see the twirling instantly.
+`,
+`
+`,
+`And just like passengers seated on a train, we don’t have any clues—like wind rushing through our hair—to make us realize how fast we’re going. The air inside the train (and the atmosphere that surrounds our planet) moves along at the same speed we do.
+`,
+`
+`,
+`There is one important difference between a train and Earth. When a train slows down or speeds up, we can feel the resulting force on our bodies. That’s because of a basic law of physics: force = mass * acceleration. Your body is the mass, and when acceleration is zero—when the train is moving at a constant speed—there’s no force on your body. You can’t feel it. But when the train changes speed by either accelerating or decelerating, there’s a force (and if you’re standing up, it might just manage to knock you over).
+`,
+`
+`,
+`Since most trains don’t zip around without ever changing speed, we can actually tell we're in motion quite often. The Earth doesn’t ever slow down or speed up. But if it did, oh boy would we feel it! And it would be the same sensation that you get on a slowing train.
+`,
+`
+`,
+`Fortunately, our planet isn’t going to suddenly slow down or speed up like that, which means we won’t ever get that feeling that tells us we’re moving.
+`,
+`
+`,
+`But that doesn’t mean we can’t observe the Earth spinning from right here on the ground. The Sun and Moon rise in the east and set in the west because of the direction we’re rotating in. If you set up a video camera pointed at the night sky, you’ll be able to see the stars moving, too. From our frame of reference, it looks like those objects are sliding past us. Remember: that’s just how we see it. From the Sun’s point of view, we’re all spinning in circles.
+`,
+`
+`,
+ ] }
